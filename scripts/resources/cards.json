@@ -69,7 +69,7 @@
 		"name":"Kyros",
 		"title":"The Spy"
 	},
-	
+	"timaios":{
 		"src":"./scripts/resources/img/placeholder.png",
 		"info":{
 			"ability":"Swap your hand with random cards from Makari-Hari/Mukaki's hand",
