@@ -9,7 +9,6 @@ function changeCard(cardName) {
 	fetch("./scripts/resources/cards.json")
 	.then((res) => res.json())
 	.then((data) => {
-		console.log(data);
 		var img = new Image();
 		img.src = data[cardName]["src"];
 		document.getElementById("cardimgfull").src = img.src;
