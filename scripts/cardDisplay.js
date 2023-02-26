@@ -5,12 +5,12 @@ const sides = {
 let currentCard = "";
 let side = sides.makari;
 function load(){
-	document.getElementById("display").style.display = "none";
+	document.getElementById("cardimgfull").style.visibility = "hidden";
 	document.getElementById("side").style.backgroundColor = "#D9A94D";
 }
 function changeCard(cardName) {
 	currentCard = cardName;
-	document.getElementById("display").style.display = "";
+	document.getElementById("cardimgfull").style.visibility = "visible";
 	fetch("./scripts/resources/cards.json")
 	.then((res) => res.json())
 	.then((data) => {
@@ -33,13 +33,13 @@ function changeSide(){
 	switch(side){
 		case sides.makari:
 			side = sides.mukaki;
-			button.textContent = "Mukaki";
+			button.textContent = "Mukaki's Side";
 			button.style.color = "#FFFFFF";
 			button.style.backgroundColor = "#240E41";
 			break;
 		case sides.mukaki:
 			side = sides.makari;
-			button.textContent = "Makari-Hari";
+			button.textContent = "Makari-Hari's Side";
 			button.style.backgroundColor = "#D9A94D";
 			break;
 	};

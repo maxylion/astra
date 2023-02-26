@@ -48,6 +48,7 @@ button {
 	padding: 1%;
 }
 #cardimgfull {
+	visibility: hidden;
 	width: 250px;
 	height: 400px;
 }
