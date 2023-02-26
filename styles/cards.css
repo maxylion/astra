@@ -18,7 +18,7 @@ button {
 	height: 80px;
 	margin: 0 12%;
 	font-size: 20px;
-	color: var(--font-color);
+	color: var(--main-dark-bg);
 	background-color: var(--bg-light);
 }
 #head {
