@@ -14,11 +14,12 @@ button {
 	border-style: none;
 }
 #side {
-	width: 80px;
+	width: 75%;
 	height: 80px;
-	margin: 25px;
+	margin: 0 12%;
 	font-size: 20px;
 	color: var(--font-color);
+	background-color: var(--bg-light);
 }
 #head {
 	padding: 0 2%;
@@ -27,7 +28,7 @@ button {
 }
 #wrapper {
 	display: flex;
-	flex-direction: row;
+	width: 100%;
 }
 #row {
 	flex-direction: row;
