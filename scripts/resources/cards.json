@@ -78,5 +78,25 @@
 		},
 		"name":"Timaios",
 		"title":""
+	},
+	"sulpicius":{
+		"src":"./scripts/resources/img/placeholder.png",
+		"info":{
+			"ability":"None",
+			"passive": "Draw three cards from the deck, choose one to keep and return the others to the deck",
+			"cost":2
+		},
+		"name":"Sulpicius",
+		"title":"The Governor"
+	},
+	"regulus":{
+		"src":"./scripts/resources/img/placeholder.png",
+		"info":{
+			"ability":"Pick an element, Makari-Hari/Mukaki's side must discard all cards of that element",
+			"passive":"None",
+			"cost":1
+		},
+		"name":"Regulus",
+		"title":""
 	}
 }
