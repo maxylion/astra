@@ -12,10 +12,9 @@
 }
 button {
 	border-style: none;
-	background-color: rgba(0, 0, 0, 0);
 }
 #head {
-	padding: 0 5%;
+	padding: 0 2%;
 	display: flex;
 	flex-direction: column;
 }
@@ -25,17 +24,13 @@ button {
 }
 #row {
 	flex-direction: row;
-	display: flex;
-	height: max-content;
-}
-#icon {
-
-	width: 200%;
-	height: 200%;
-	
+	display: flex
 }
 #icon *{
 	margin-right: 10px;
+	width: 75px;
+	height: 75px;
+	background-color: var(--bg-light);
 }
 #display {
 	max-width: 50%;
