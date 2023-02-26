@@ -26,9 +26,6 @@ function changeCard(cardName) {
 	});
 }
 function changeSide(){
-	if (currentCard === ""){
-		return;
-	}
 	let button = document.getElementById("side");
 	switch(side){
 		case sides.makari:
@@ -44,6 +41,8 @@ function changeSide(){
 			button.style.backgroundColor = "#D9A94D";
 			break;
 	};
-	console.log(side);
+	if (currentCard === ""){
+		return;
+	}
 	changeCard(currentCard);
 }
