@@ -1,8 +1,8 @@
 {
 	"makari":{
-		"src":"./scripts/resources/img/placeholder.png",
+		"src":"./scripts/resources/img/makari.png",
 		"info":{
-			"ability":"Lose one influence. Gain one energy per card that Mukaki's side has.",
+			"ability":"(5 turn cooldown) Lose one influence and obtain one Energy per Card held by Mukaki's side.",
 			"passive":"When Makari-Hari's side uses a spell card, draw one card.",
 			"cost":1
 		},
@@ -10,49 +10,49 @@
 		"title":"The God"
 	},
 	"mukaki":{
-		"src":"./scripts/resources/img/placeholder.png",
+		"src":"./scripts/resources/img/mukaki.png",
 		"info":{
-			"ability":"Lose one influence. Add one cooldown to Makari-Hari and swap hands with Makari-Hari's side.",
-			"passive":"Mukaki's side can play up to two cards in a trial.",
+			"ability":"Lose one influence. Add one cooldown to Makari-Hari and swap all cards with your opponent.",
+			"passive":"Players on Mukaki's side can play up to two Cards during the Trial Stage.",
 			"cost":1
 		},
 		"name":"Mukaki",
 		"title":"The Devil"
 	},
 	"cerkles":{
-		"src":"./scripts/resources/img/placeholder.png",
+		"src":"./scripts/resources/img/cerkles.png",
 		"info":{
-			"ability":"Makari-Hari/Mukaki's side draws one card.",
+			"ability":"Makari-Hari/Mukaki's side draws one Card.",
 			"passive":"None",
 			"cost":1
 		},
 		"name":"Cerkles",
-		"title":"The Paragon"
+		"title":"The Chirurgeon"
 	},
 	"herclaus":{
-		"src":"./scripts/resources/img/placeholder.png",
+		"src":"./scripts/resources/img/herclaus.png",
 		"info":{
-			"ability":"Remove one energy from Makari-Hari/Mukaki's side.",
+			"ability":"Your opponent loses one Energy (Unless they have zero Energy remaining)",
 			"passive": "None",
 			"cost":1
 		},
 		"name":"Herclaus",
-		"title":"The Spearmaster"
+		"title":"The Spearman"
 	},
 	"krokos":{
 		"src":"./scripts/resources/img/placeholder.png",
 		"info":{
-			"ability":"Remove one card from Makari-Hari/Mukaki's side.",
+			"ability":"Makari-Hari/Mukaki's side discards one Card from their hand.",
 			"passive": "None",
 			"cost":1
 		},
 		"name":"Krokos",
-		"title":""
+		"title":"The Arcanist"
 	},
 	"zermes":{
 		"src":"./scripts/resources/img/placeholder.png",
 		"info":{
-			"ability":"Discard your entire hand and draw two cards. If their elements match, draw two more. Repeat until they don't match. (Extra cards will be discarded)",
+			"ability":"Discard your entire hand. Pull two Cards from the deck, then keep pulling pairs of Cards as long as the Elements match, else discard the last pair and stop.",
 			"passive":"None",
 			"cost":1
 		},
@@ -63,7 +63,7 @@
 		"src":"./scripts/resources/img/placeholder.png",
 		"info":{
 			"ability":"None",
-			"passive":"When a trial begins, reveal Makari-Hari's/Mukaki's hand.",
+			"passive":"When the Trial begins, Makari-Hari's/Mukaki's side must reveal their hand to Makari-Hari/Mukaki's side.",
 			"cost":1
 		},
 		"name":"Kyros",
@@ -72,18 +72,18 @@
 	"timaios":{
 		"src":"./scripts/resources/img/placeholder.png",
 		"info":{
-			"ability":"Swap your hand with random cards from Makari-Hari/Mukaki's hand.",
+			"ability":"Swap the Cards in your hand with random card from your opponents's hand.",
 			"passive":"None",
 			"cost":1
 		},
 		"name":"Timaios",
-		"title":""
+		"title":"The Senator"
 	},
 	"sulpicius":{
 		"src":"./scripts/resources/img/placeholder.png",
 		"info":{
 			"ability":"None",
-			"passive": "Draw three cards from the deck, choose one to keep and return the others to the deck.",
+			"passive": "Makari-Hari/Mukaki's side draws their Cards last. Three Cards are pulled from the deck. Pick one to keep and return the other two Cards to the top of the deck in any order",
 			"cost":2
 		},
 		"name":"Sulpicius",
@@ -92,37 +92,37 @@
 	"regulus":{
 		"src":"./scripts/resources/img/placeholder.png",
 		"info":{
-			"ability":"Pick an element, Makari-Hari/Mukaki's side must discard all cards of that element.",
+			"ability":"Pick an element, Makari-Hari/Mukaki's side must discard all matching Cards from their hand.",
 			"passive":"None",
 			"cost":1
 		},
 		"name":"Regulus",
-		"title":""
+		"title":"The Tribune"
 	},
 	"drusus":{
 		"src":"./scripts/resources/img/placeholder.png",
 		"info":{
-			"ability":"Draw one card, preform two trials only Makari-Hari/Mukaki can participate in.",
+			"ability":"Makari-Hari/Mukaki's side draws one card, then preforms two trials only they can participate in.",
 			"passive":"None",
 			"cost":2
 		},
 		"name":"Drusus",
-		"title":""
+		"title":"The Oracle"
 	},
 	"varius":{
 		"src":"./scripts/resources/img/placeholder.png",
 		"info":{
-			"ability":"Take all energy from the hero on Makari-Hari/Mukaki's side. If it's a tie, pick one.",
+			"ability":"Take all Energy from the Hero on Makari-Hari/Mukaki's side. (If a tie, pick one) This energy is then given to you.",
 			"passive":"None",
 			"cost":2
 		},
 		"name":"Varius",
-		"title":""
+		"title":"The Censor"
 	},
 	"nikos":{
 		"src":"./scripts/resources/img/placeholder.png",
 		"info":{
-			"ability": "For every hero on Makari-Hari/Mukaki's side with no energy, flip them over to your side.",
+			"ability": "For every hero on Makari-Hari/Mukaki's side with no energy, turn them to your side.",
 			"passive":"None",
 			"cost":1
 		},
@@ -132,51 +132,51 @@
 	"caelius":{
 		"src":"./scripts/resources/img/placeholder.png",
 		"info":{
-			"ability":"Makari-Hari/Mukaki's side must submit one card. Conver that card into one energy.",
+			"ability":"Makari-Hari/Mukaki's side must submit one Card from their hand to Makari-Hari/Mukaki's side. This card is converted into Energy.",
 			"passive":"None",
 			"cost":2
 		},
 		"name":"Caelius",
-		"title":""
+		"title":"The Cavalry"
 	},
 	"aristotle":{
 		"src":"./scripts/resources/img/placeholder.png",
 		"info":{
 			"ability":"None",
-			"passive": "When Makari-Hari/Mukaki's side draws a spell card, reveal it and draw another card.",
+			"passive": "When you draw a spell card, show that Card to your opponent, the draw an additional Card (Once per round).",
 			"cost":1
 		},
 		"name":"Aristotle",
-		"title":""
+		"title":"The Quaestor"
 	},
 	"alkaios":{
 		"src":"./scripts/resources/img/placeholder.png",
 		"info":{
-			"ability":"Each side must wager their energy, the side with the highest wager draws two cards per energy wagered. (All energy wagered is discarded)",
+			"ability":"Each side can wager their Energy. The side with the largest wager draws two Cards per Energy wagered. All energy offered is discarded. If tiedm bi side wins. This ability resolves at the end of the Hero Stage",
 			"passive":"None",
 			"cost":1
 		},
 		"name":"Alkaios",
-		"title":""
+		"title":"The Warmaster"
 	},
 	"gaios":{
 		"src":"./scripts/resources/img/placeholder.png",
 		"info":{
 			"ability":"None",
-			"passive": "When Makari-Hari/Mukaki's side preforms an exchange, its cost is lowered to two cards.",
+			"passive": "The cost to preform an Exchange is reduced to two Cards for Makari-Hari/Mukaki's side",
 			"cost":1
 		},
 		"name":"Gaios",
-		"title":""
+		"title":"The Quartermaster"
 	},
 	"lysander":{
 		"src":"./scripts/resources/img/placeholder.png",
 		"info":{
-			"ability": "Pick an element, convert all cards of that element in your hand to energy.",
+			"ability": "Pick an Element, convert all matching Cards from your hand into Energy.",
 			"passive":"None",
 			"cost":2
 		},
 		"name":"Lysander",
-		"title":""
+		"title":"The Trumpeter"
 	}
 }
