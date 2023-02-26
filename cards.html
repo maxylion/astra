@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" href="styles/cards.css">
+	<title>Astra - Card reference</title>
+</head>
+<body onload="hide()">
+	<iframe id="headeri" src="./components/headers.html" frameborder="0"></iframe>
+	<div id="wrapper">
+		<div id="head">
+			<h1>Base Gods & Heroes</h1>
+			<div id="row">
+				<div id="icon">
+					<button onclick="changeCard('makari')"></button>
+				</div>
+				<div id="icon">
+					<button onclick="changeCard('mukaki')"></button>
+				</div>
+				<div id="icon">
+					<button onclick="changeCard('cerkles')"></button>
+				</div>
+				<div id="icon">
+					<button onclick="changeCard('herclaus')"></button>
+				</div>
+				<div id="icon">
+					<button onclick="changeCard('krokos')"></button>
+				</div>
+				<div id="icon">
+					<button onclick="changeCard('zermes')"></button>
+				</div>
+			</div>
+			<h1>Expansion Pack I</h1>
+			<div id="row">
+				<div id="icon">
+					<button onclick="changeCard('kyros')"></button>
+				</div>
+				<div id="icon">
+					<button onclick="changeCard('timaios')"></button>
+				</div>
+			</div>
+			<h1>Expansion Pack II</h1>
+			<h3>Not Implemented</h3>
+			<h1>Expansion Pack III</h1>
+			<h3>Not Released :)</h3>
+			<h1>Expansion Pack IV</h1>
+			<h3>Not Released :)</h3>
+		</div>
+		<div id="display">
+			<h1 id="title"></h1>
+			<h4 id="title2"></h4>
+			<div id="info">
+				<img id="cardimgfull">
+				<div id="descdiv">
+					<h3 id="abil"></h3>
+					<h3 id="abil2"></h3>
+					<h3 id="cost"></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./scripts/cardDisplay.js"></script>
+</body>
+</html>

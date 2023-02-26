@@ -1,0 +1,82 @@
+{
+	"makari":{
+		"src":"./scripts/resources/img/placeholder.png",
+		"info":{
+			"ability":"Lose one influence. Gain one energy per card that Mukaki's side has",
+			"passive":"When Makari-Hari's side uses a spell card, draw one card",
+			"cost":1
+		},
+		"name":"Makari-Hari",
+		"title":"The God"
+	},
+	"mukaki":{
+		"src":"./scripts/resources/img/placeholder.png",
+		"info":{
+			"ability":"Lose one influence. Add one cooldown to Makari-Hari and swap hands with Makari-Hari's side",
+			"passive":"Mukaki's side can play up to two cards in a trial",
+			"cost":1
+		},
+		"name":"Mukaki",
+		"title":"The Devil"
+	},
+	"cerkles":{
+		"src":"./scripts/resources/img/placeholder.png",
+		"info":{
+			"ability":"Makari-Hari/Mukaki's side draws one card",
+			"passive":"None",
+			"cost":1
+		},
+		"name":"Cerkles",
+		"title":"The Paragon"
+	},
+	"herclaus":{
+		"src":"./scripts/resources/img/placeholder.png",
+		"info":{
+			"ability":"Remove one energy from Makari-Hari/Mukaki's side",
+			"passive": "None",
+			"cost":1
+		},
+		"name":"Herclaus",
+		"title":"The Spearmaster"
+	},
+	"krokos":{
+		"src":"./scripts/resources/img/placeholder.png",
+		"info":{
+			"ability":"Remove one card from Makari-Hari/Mukaki's side",
+			"passive": "None",
+			"cost":1
+		},
+		"name":"Krokos",
+		"title":""
+	},
+	"zermes":{
+		"src":"./scripts/resources/img/placeholder.png",
+		"info":{
+			"ability":"Discard your entire hand and draw two cards. If their elements match, draw two more. Repeat until they don't match (Extra cards will be discarded)",
+			"passive":"None",
+			"cost":1
+		},
+		"name":"Zermes",
+		"title":"The Gambler"
+	},
+	"kyros":{
+		"src":"./scripts/resources/img/placeholder.png",
+		"info":{
+			"ability":"None",
+			"passive":"When a trial begins, reveal Makari-Hari's/Mukaki's hand",
+			"cost":1
+		},
+		"name":"Kyros",
+		"title":"The Spy"
+	},
+	
+		"src":"./scripts/resources/img/placeholder.png",
+		"info":{
+			"ability":"Swap your hand with random cards from Makari-Hari/Mukaki's hand",
+			"passive":"None",
+			"cost":1
+		},
+		"name":"Timaios",
+		"title":""
+	}
+}

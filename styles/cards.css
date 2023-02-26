@@ -1,0 +1,75 @@
+
+:root {
+	--font-color: white;
+	--main-dark-bg: #343434;
+	--bg-light: #D9A94D;
+	--bg-dark: #240E41;
+	--bg-dark-border: #7648B0;
+	--bg-light-border: #ebebeb;
+}
+#headeri {
+	width: 100%;
+}
+button {
+	border-style: none;
+}
+#head {
+	padding: 0 5%;
+	display: flex;
+	flex-direction: column;
+}
+#wrapper {
+	display: flex;
+	flex-direction: row;
+}
+#row {
+	flex-direction: row;
+	display: flex
+}
+#icon *{
+	margin-right: 10px;
+	width: 75px;
+	height: 75px;
+	background-color: var(--bg-light);
+}
+#display {
+	max-width: 50%;
+	background-color: var(--bg-dark);
+	margin: 5%;
+	padding: 1%;
+}
+#cardimgfull {
+	width: 250px;
+	height: 400px;
+}
+#info {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+#descdiv {
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+}
+#descdiv * {
+	font-size: 20px;
+	margin-top: 20px;
+}
+#title {
+	margin-left: 20px;
+	width: fit-content;
+}
+#title2 {
+	margin-left: 22px;
+	width: fit-content;
+}
+* {
+	font-family: 'Zilla Slab', serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: var(--main-dark-bg);
+	color: var(--font-color)
+}
