@@ -7,7 +7,7 @@
 			"passive":"When Makari-Hari's side uses a spell card, draw one card."
 		},
 		"info_devil":{
-			"ability":"Entangled in binding lies, Makari-Hari cannot use abilities",
+			"ability":"Entangled in binding lies, Makari-Hari cannot use any abilities",
 			"passive":"None"
 
 		},
@@ -19,7 +19,7 @@
 		"src_god":"./scripts/resources/img/god/mukaki.png",
 		"src_devil":"./scripts/resources/img/devil/mukaki.png",
 		"info_god":{
-			"ability":"Engulfed in holy light, Mukaki cannot use abilities",
+			"ability":"Engulfed in holy light, Mukaki cannot use any abilities",
 			"passive":"None"
 		},
 		"info_devil":{
@@ -169,11 +169,11 @@
 		"src_god":"./scripts/resources/img/god/varius.png",
 		"src_devil":"./scripts/resources/img/devil/varius.png",
 		"info_god":{
-			"ability":"Take all Energy from the Hero on Mukaki's side. (If a tie, pick one) This energy is then given to you.",
+			"ability":"Take all Energy from the Hero on Mukaki's side with the most Energy. (If a tie, pick one) This energy is then given to you.",
 			"passive":"None"
 		},
 		"info_devil":{
-			"ability":"Take all Energy from the Hero on Makari-Hari's side. (If a tie, pick one) This energy is then given to you.",
+			"ability":"Take all Energy from the Hero on Makari-Hari's side with the most Energy. (If a tie, pick one) This energy is then given to you.",
 			"passive":"None"
 		},
 		"cost":2,
