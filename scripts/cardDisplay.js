@@ -1,10 +1,8 @@
-var currentCard = ""
-function hide(){
+
+function load(){
 	document.getElementById("display").style.display = "none";
-	console.log(document.getElementById("display").style.display);
 }
 function changeCard(cardName) {
-	currentCard = cardName;
 	document.getElementById("display").style.display = "";
 	fetch("./scripts/resources/cards.json")
 	.then((res) => res.json())
