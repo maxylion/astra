@@ -35,7 +35,7 @@ ul li {
 #container {
 	width: max-content;
 	padding: 0px 20px;
-	margin-left: 10%;
+	margin-left: 5%;
 	border: 4px solid var(--bg-dark-border);
 	background-color: var(--bg-dark);
 	border-radius: 14px;
