@@ -31,6 +31,7 @@ function changeSide(){
 			side = sides.makari;
 			break;
 	};
+	console.log(side);
 	fetch('./scripts/resources/cards.json')
 	.then((res) => res.json())
 	.then((data => {
