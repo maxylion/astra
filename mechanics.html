@@ -4,9 +4,43 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" href="./styles/mechanics.css">
+	<title>Astra - Mechanics Reference</title>
 </head>
-<body>
-	
+<body onload="load()">
+	<iframe id="headeri" src="./components/headers.html" frameborder="0"></iframe>
+	<div id="wrapper">
+		<div id="head">
+			<div id="row">
+				<div id="trials" class="panel">
+					<h1>Trials</h1>
+					<div class="info"></div>
+				</div>
+				<div id="energy" class="panel">
+					<h1>Energy</h1>
+				</div>
+			</div>
+			<div id="row">
+				<div id="influence" class="panel">
+					<h1>Influence</h1>
+					<div class="info"></div>
+				</div>
+				<div id="exchange" class="panel">
+					<h1>Exchange</h1>
+					<div class="info"></div>
+				</div>
+			</div>
+			<div id="row">
+				<div id="disparity" class="last">
+					<h1>Disparity</h1>
+					<div class="info"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./scripts/mechanicsDisplay.js"></script>
 </body>
 </html>
