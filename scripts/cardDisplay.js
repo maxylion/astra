@@ -33,6 +33,7 @@ function changeCard(cardName) {
 		document.getElementById("cost").textContent = `Summon cost: ${data[currentCard]["cost"]}`
 		document.getElementById("title").textContent = data[currentCard]["name"];
 		document.getElementById("title2").textContent = data[currentCard]["title"];
+		document.getElementById("title2").style.width = document.getElementById("title").style.width;
 	});
 }
 function changeColor(newColor){
@@ -58,6 +59,7 @@ function changeSpell(spellName){
 		document.getElementById("abil2").textContent = "";
 		document.getElementById("title").textContent = name;
 		document.getElementById("title2").textContent = "Spell Card";
+		document.getElementById("title2").style.width = document.getElementById("title").style.width;
 	})
 }
 function changeSide(){
