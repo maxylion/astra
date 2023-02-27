@@ -1,0 +1,52 @@
+{
+	"exhalted":{
+		"name":"Exhalted Element",
+		"desc":"",
+		"srcs":{
+			"red":"./scripts/resources/img/spells/exhalted/red.png",
+			"green":"./scripts/resources/img/spells/exhalted/green.png",
+			"blue":"./scripts/resources/img/spells/exhalted/blue.png",
+			"yellow":"./scripts/resources/img/spells/exhalted/yellow.png"
+		}
+	},
+	"favor":{
+		"name":"Divine Favor",
+		"desc":"Draw one Card",
+		"srcs":{
+			"red":"./scripts/resources/img/spells/favor/red.png",
+			"green":"./scripts/resources/img/spells/favor/green.png",
+			"blue":"./scripts/resources/img/spells/favor/blue.png",
+			"yellow":"./scripts/resources/img/spells/favor/yellow.png"
+		}
+	},
+	"consecrate":{
+		"name":"Consecrate",
+		"desc":"",
+		"srcs":{
+			"red":"./scripts/resources/img/spells/consecrate/red.png",
+			"green":"./scripts/resources/img/spells/consecrate/green.png",
+			"blue":"./scripts/resources/img/spells/consecrate/blue.png",
+			"yellow":"./scripts/resources/img/spells/consecrate/yellow.png"
+		}
+	},
+	"altered":{
+		"name":"Altered Trial",
+		"desc":"",
+		"srcs":{
+			"red":"./scripts/resources/img/spells/altered/red.png",
+			"green":"./scripts/resources/img/spells/altered/green.png",
+			"blue":"./scripts/resources/img/spells/altered/blue.png",
+			"yellow":"./scripts/resources/img/spells/altered/yellow.png"
+		}
+	},
+	"blessed":{
+		"name":"Blessed Trial",
+		"desc":"",
+		"srcs":{
+			"red":"./scripts/resources/img/spells/blessed/red.png",
+			"green":"./scripts/resources/img/spells/blessed/green.png",
+			"blue":"./scripts/resources/img/spells/blessed/blue.png",
+			"yellow":"./scripts/resources/img/spells/blessed/yellow.png"
+		}
+	}
+}
