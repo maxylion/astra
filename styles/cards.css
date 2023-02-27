@@ -58,6 +58,13 @@ button {
 	flex-direction: row;
 	display: flex
 }
+#cons *{
+	font-size: 17px;
+	margin-right: 10px;
+	width: 85px;
+	height: 85px;
+	background-color: var(--bg-light);
+}
 #icon *{
 	margin-right: 10px;
 	width: 85px;
