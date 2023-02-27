@@ -2,29 +2,37 @@ const sides = {
 	mukaki:"devil",
 	makari:"god"
 };
+const types = {
+	hero:"hero",
+	spell:"spell"
+}
+let type = "";
 let currentCard = "";
-let color = "";
+let color = "red";
 let side = sides.makari;
 function load(){
 	document.getElementById("cardimgfull").style.visibility = "hidden";
 	document.getElementById("side").style.backgroundColor = "#D9A94D";
+	document.getElementById("display").style.display = "none";
 }
 function changeCard(cardName) {
 	currentCard = cardName;
+	type = types.hero;
+	document.getElementById("display").style.display = "";
 	document.getElementById("colorselect").style.display = "none";
 	document.getElementById("cardimgfull").style.visibility = "visible";
 	fetch("./scripts/resources/cards.json")
 	.then((res) => res.json())
 	.then((data) => {
 		let img = new Image();
-		let info = data[cardName][`info_${side}`];
-		img.src = data[cardName][`src_${side}`];
+		let info = data[currentCard][`info_${side}`];
+		img.src = data[currentCard][`src_${side}`];
 		document.getElementById("cardimgfull").src = img.src;
 		document.getElementById("abil").textContent = `Active Ability: ${info["ability"]}`
 		document.getElementById("abil2").textContent = `Passive Ability: ${info["passive"]}`
-		document.getElementById("cost").textContent = `Summon cost: ${data[cardName]["cost"]}`
-		document.getElementById("title").textContent = data[cardName]["name"];
-		document.getElementById("title2").textContent = data[cardName]["title"];
+		document.getElementById("cost").textContent = `Summon cost: ${data[currentCard]["cost"]}`
+		document.getElementById("title").textContent = data[currentCard]["name"];
+		document.getElementById("title2").textContent = data[currentCard]["title"];
 	});
 }
 function changeColor(newColor){
@@ -32,17 +40,21 @@ function changeColor(newColor){
 }
 function changeSpell(spellName){
 	currentCard = spellName;
+	type = types.spell;
+	document.getElementById("display").style.display = "";
 	document.getElementById("colorselect").style.display = "";
 	document.getElementById("cardimgfull").style.visibility = "visible";
 	fetch("./scripts/resources/spells.json")
 	.then((res) => res.json())
 	.then((data) => {
 		let img = new Image();
-		let name = data[cardName]["name"];
-		let desc = data[cardName]["desc"];
-		img.src = data[cardName]["srcs"][color];
+		let name = data[currentCard]["name"];
+		let desc = data[currentCard][`desc_${side}`];
+		img.src = data[currentCard]["srcs"][color];
 		document.getElementById("cardimgfull").src = img.src;
 		document.getElementById("abil").textContent = `Ability: ${desc}`;
+		
+		document.getElementById("cost").textContent = "";
 		document.getElementById("abil2").textContent = "";
 		document.getElementById("title").textContent = name;
 		document.getElementById("title2").textContent = "Spell Card";
@@ -50,6 +62,7 @@ function changeSpell(spellName){
 }
 function changeSide(){
 	let button = document.getElementById("side");
+	
 	switch(side){
 		case sides.makari:
 			side = sides.mukaki;
@@ -64,8 +77,13 @@ function changeSide(){
 			button.style.backgroundColor = "#D9A94D";
 			break;
 	};
-	if (currentCard === ""){
+	if (currentCard === "") {
 		return;
 	}
-	changeCard(currentCard);
+	if (type === types.hero){
+		changeCard(currentCard);
+	}
+	else if (type === types.spell){
+		changeSpell(currentCard);
+	}
 }

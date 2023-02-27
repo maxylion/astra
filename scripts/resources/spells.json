@@ -1,7 +1,8 @@
 {
 	"exhalted":{
 		"name":"Exhalted Element",
-		"desc":"",
+		"desc_god":"",
+		"desc_devil":"",
 		"srcs":{
 			"red":"./scripts/resources/img/spells/exhalted/red.png",
 			"green":"./scripts/resources/img/spells/exhalted/green.png",
@@ -11,7 +12,8 @@
 	},
 	"favor":{
 		"name":"Divine Favor",
-		"desc":"Draw one Card",
+		"desc_god":"Draw one Card",
+		"desc_devil":"Draw one Card",
 		"srcs":{
 			"red":"./scripts/resources/img/spells/favor/red.png",
 			"green":"./scripts/resources/img/spells/favor/green.png",
@@ -21,7 +23,8 @@
 	},
 	"consecrate":{
 		"name":"Consecrate",
-		"desc":"",
+		"desc_god":"Remove one Energy from a Hero on Mukaki's side",
+		"desc_devil":"Remove one Energy from a Hero on Makari-Hari's side",
 		"srcs":{
 			"red":"./scripts/resources/img/spells/consecrate/red.png",
 			"green":"./scripts/resources/img/spells/consecrate/green.png",
@@ -31,7 +34,8 @@
 	},
 	"altered":{
 		"name":"Altered Trial",
-		"desc":"",
+		"desc_god":"",
+		"desc_devil":"",
 		"srcs":{
 			"red":"./scripts/resources/img/spells/altered/red.png",
 			"green":"./scripts/resources/img/spells/altered/green.png",
@@ -41,7 +45,8 @@
 	},
 	"blessed":{
 		"name":"Blessed Trial",
-		"desc":"",
+		"desc_god":"",
+		"desc_devil":"",
 		"srcs":{
 			"red":"./scripts/resources/img/spells/blessed/red.png",
 			"green":"./scripts/resources/img/spells/blessed/green.png",
