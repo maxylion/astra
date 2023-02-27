@@ -20,7 +20,7 @@ body {
 }
 
 #wrapper {
-	height: 100vh;
+	height: 100%;
 	display: flex;
 }
 #row {
@@ -46,9 +46,19 @@ body {
 	margin-bottom: 50px;
 	background-color: var(--bg-dark);
 }
+.lastrow{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+.lastrow h1{
+	margin: 10px 25px 0;
+}
+.info {
+	margin: 10px 35px 0;
+}
 #head {
 	width: 100%;
-	height: 100%;
 	padding: 0 2%;
 	display: flex;
 	flex-direction: column;

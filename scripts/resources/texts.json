@@ -3,7 +3,7 @@
 		"disparity":{
 			"lines":[
 				"Action: Disparage (costs 3 disparity)",
-				"influence gained is doubled."
+				"Effect: Influence gain is doubled."
 			],
 			"gifsrc":"",
 			"links":{
@@ -60,12 +60,13 @@
 				"energy":"#energy",
 				"trials":"#trials"
 			}
+		},
+		"turnord":{
+			"lines":[],
+			"gifsrc":"",
+			"links":{
+				"influence":"#influence"
+			}
 		}
-	},
-	"textcues":[
-		"$influence",
-		"$energy",
-		"$trials",
-		"$disparity"
-	]
+	}
 }
