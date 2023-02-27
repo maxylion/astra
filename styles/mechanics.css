@@ -18,9 +18,14 @@
 body {
 	background-color: var(--main-dark-bg);
 }
-
+.main {
+	width: 100%;
+	text-align: center;
+	font-size: 45px;
+}
 #wrapper {
 	height: 100%;
+	margin-bottom: 50px;
 	display: flex;
 }
 #row {
