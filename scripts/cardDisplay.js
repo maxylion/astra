@@ -43,10 +43,12 @@ function changeCard(cardName) {
 }
 function changeColor(newColor){
 	color = newColor;
+	changeSpell(currentCard);
 }
 function changeSpell(spellName){
 	currentCard = spellName;
 	type = types.spell;
+	console.log(color);
 	document.getElementById("display").style.display = "";
 	document.getElementById("colorselect").style.display = "";
 	document.getElementById("cardimgfull").style.visibility = "visible";
