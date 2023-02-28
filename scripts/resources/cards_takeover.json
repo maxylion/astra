@@ -198,11 +198,11 @@
 		"src_god":"./scripts/resources/img/god/caelius.png",
 		"src_devil":"./scripts/resources/img/devil/caelius.png",
 		"info_god":{
-			"ability":"Mukaki's side must submit one Card from their hand to Makari-Hari/Mukaki's side. This card is converted into Energy.",
+			"ability":"Mukaki's side must submit one Card from their hand to Makari-Hari's side. This card is converted into Energy.",
 			"passive":"None"
 		},
 		"info_devil":{
-			"ability":"Makari-Hari's side must submit one Card from their hand to Makari-Hari/Mukaki's side. This card is converted into Energy.",
+			"ability":"Makari-Hari's side must submit one Card from their hand to Mukaki's side. This card is converted into Energy.",
 			"passive":"None"
 		},
 		"name":"Caelius",
@@ -228,11 +228,11 @@
 		"src_god":"./scripts/resources/img/god/alkaios.png",
 		"src_devil":"./scripts/resources/img/devil/alkaios.png",
 		"info_god":{
-			"ability":"Each side can wager their Energy. The side with the largest wager draws two Cards per Energy wagered. All energy offered is discarded. If tiedm bi side wins. This ability resolves at the end of the Hero Stage",
+			"ability":"Each side can wager their Energy. The side with the largest wager draws two Cards per Energy wagered. All energy offered is discarded. If tied no side wins. This ability resolves at the end of the Hero Stage",
 			"passive":"None"
 		},
 		"info_devil":{
-			"ability":"Each side can wager their Energy. The side with the largest wager draws two Cards per Energy wagered. All energy offered is discarded. If tiedm bi side wins. This ability resolves at the end of the Hero Stage",
+			"ability":"Each side can wager their Energy. The side with the largest wager draws two Cards per Energy wagered. All energy offered is discarded. If tied no side wins. This ability resolves at the end of the Hero Stage",
 			"passive":"None"
 		},
 		"name":"Alkaios",

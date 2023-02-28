@@ -1,8 +1,8 @@
 {
 	"exhalted":{
 		"name":"Exhalted Element",
-		"desc_god":"",
-		"desc_devil":"",
+		"desc_god":"This Card can be used to match any Element in a Trial.",
+		"desc_devil":"This Card can be used to match any Element in a Trial.",
 		"srcs":{
 			"red":"./scripts/resources/img/spells/exhalted/red.png",
 			"green":"./scripts/resources/img/spells/exhalted/green.png",
@@ -12,8 +12,8 @@
 	},
 	"favor":{
 		"name":"Divine Favor",
-		"desc_god":"Draw one Card",
-		"desc_devil":"Draw one Card",
+		"desc_god":"Pick a player on your side to draw a Card. (including yourself)",
+		"desc_devil":"Pick a player on your side to draw a Card. (including yourself)",
 		"srcs":{
 			"red":"./scripts/resources/img/spells/favor/red.png",
 			"green":"./scripts/resources/img/spells/favor/green.png",
@@ -23,8 +23,8 @@
 	},
 	"consecrate":{
 		"name":"Consecrate",
-		"desc_god":"Remove one Energy from a Hero on Mukaki's side",
-		"desc_devil":"Remove one Energy from a Hero on Makari-Hari's side",
+		"desc_god":"Remove one Energy from a Player/Hero in the game, except if they have zero Energy remaining.",
+		"desc_devil":"Remove one Energy from a Player/Hero in the game, except if they have zero Energy remaining.",
 		"srcs":{
 			"red":"./scripts/resources/img/spells/consecrate/red.png",
 			"green":"./scripts/resources/img/spells/consecrate/green.png",
@@ -34,8 +34,8 @@
 	},
 	"altered":{
 		"name":"Altered Trial",
-		"desc_god":"",
-		"desc_devil":"",
+		"desc_god":"Replace the current Trial Card with this Spell Card and Element.",
+		"desc_devil":"Replace the current Trial Card with this Spell Card and Element.",
 		"srcs":{
 			"red":"./scripts/resources/img/spells/altered/red.png",
 			"green":"./scripts/resources/img/spells/altered/green.png",
@@ -45,8 +45,8 @@
 	},
 	"blessed":{
 		"name":"Blessed Trial",
-		"desc_god":"",
-		"desc_devil":"",
+		"desc_god":"Add this Spell Card and Element as an additional Trial Card.",
+		"desc_devil":"Add this Spell Card and Element as an additional Trial Card.",
 		"srcs":{
 			"red":"./scripts/resources/img/spells/blessed/red.png",
 			"green":"./scripts/resources/img/spells/blessed/green.png",
