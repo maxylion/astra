@@ -5,7 +5,11 @@
 	--bg-light: #D9A94D;
 	--bg-dark: #240E41;
 	--bg-dark-border: #7648B0;
-	--bg-light-border: #ebebeb;
+	--bg-light-border: #EBEBEB;
+	--card-select-red: #ED0000;
+	--card-select-green: #3FBD2B;
+	--card-select-blue: #3582DB;
+	--card-select-yellow: #F0E035;
 }
 #headeri {
 	width: 100%;
@@ -14,16 +18,16 @@ button {
 	border-style: none;
 }
 #red {
-	background-color: red;
+	background-color: var(--card-select-red);
 }
 #green {
-	background-color: green;
+	background-color: var(--card-select-green);
 }
 #blue {
-	background-color: blue;
+	background-color: var(--card-select-blue);
 }
 #yellow {
-	background-color: yellow;
+	background-color: var(--card-select-yellow);
 }
 #colorselect {
 	margin-left: 32.5%;
