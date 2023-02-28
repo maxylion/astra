@@ -15,11 +15,6 @@
 #headeri {
 	width: 100%;
 }
-.guideimg {
-	height: 50%;
-	width: 100%;
-	object-fit: cover;
-}
 * {
 	font-family: 'Zilla Slab', serif;
 	margin: 0;
