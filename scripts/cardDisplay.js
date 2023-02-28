@@ -5,8 +5,13 @@ const sides = {
 const types = {
 	hero:"hero",
 	spell:"spell"
-}
+};
+const modes = {
+	pvp:"takeover",
+	coop:"conquest"
+};
 let type = "";
+let mode = modes.pvp;
 let currentCard = "";
 let color = "red";
 let side = sides.makari;
@@ -21,7 +26,7 @@ function changeCard(cardName) {
 	document.getElementById("display").style.display = "";
 	document.getElementById("colorselect").style.display = "none";
 	document.getElementById("cardimgfull").style.visibility = "visible";
-	fetch("./scripts/resources/cards.json")
+	fetch(`./scripts/resources/cards_${mode}.json`)
 	.then((res) => res.json())
 	.then((data) => {
 		let img = new Image();
@@ -45,7 +50,7 @@ function changeSpell(spellName){
 	document.getElementById("display").style.display = "";
 	document.getElementById("colorselect").style.display = "";
 	document.getElementById("cardimgfull").style.visibility = "visible";
-	fetch("./scripts/resources/spells.json")
+	fetch(`./scripts/resources/spells_${mode}.json`)
 	.then((res) => res.json())
 	.then((data) => {
 		let img = new Image();
@@ -62,10 +67,34 @@ function changeSpell(spellName){
 		document.getElementById("title2").style.width = document.getElementById("title").style.width;
 	})
 }
+function changeMode(){
+	let button = document.getElementById("mode");
+	switch(mode){
+		case modes.pvp:
+			button.textContent = "Conquest Trial";
+			mode = modes.coop;
+			break;
+		case modes.coop:
+			button.textContent = "Takeover Trial";
+			mode = modes.pvp;
+			break;
+	}
+	if (currentCard === "") {
+		return;
+	}
+	switch (type) {
+		case types.hero:
+			changeCard(currentCard);
+			break;
+		case types.spell:
+			changeSpell(currentCard);
+			break;
+	}
+}
 function changeSide(){
 	let button = document.getElementById("side");
 	
-	switch(side){
+	switch (side) {
 		case sides.makari:
 			side = sides.mukaki;
 			button.textContent = "Mukaki's Side";
@@ -82,10 +111,12 @@ function changeSide(){
 	if (currentCard === "") {
 		return;
 	}
-	if (type === types.hero){
-		changeCard(currentCard);
-	}
-	else if (type === types.spell){
-		changeSpell(currentCard);
+	switch (type) {
+		case types.hero:
+			changeCard(currentCard);
+			break;
+		case types.spell:
+			changeSpell(currentCard);
+			break;
 	}
 }

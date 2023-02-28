@@ -44,6 +44,18 @@ button {
 	color: var(--main-dark-bg);
 	background-color: var(--bg-light);
 }
+#sidechanger {
+	display: flex;
+	flex-direction: row;
+}
+#mode {
+	width: 75%;
+	height: 80px;
+	margin: 0 12%;
+	font-size: 20px;
+	color: var(--main-dark-bg);
+	background-color: var(--bg-light);
+}
 #head {
 	padding: 0 2%;
 	display: flex;
