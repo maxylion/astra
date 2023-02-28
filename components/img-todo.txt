@@ -1,0 +1,9 @@
+Screenshots: 
+- Side select screen
+- Card draw screen
+- Trial screen
+- Main UI screen
+- Summon icon
+
+Edit:
+- Main UI screen (Highlight important)

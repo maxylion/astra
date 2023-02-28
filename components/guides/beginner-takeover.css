@@ -24,10 +24,27 @@
 	width: 100%;
 }
 .center {
+	background-color: var(--bg-dark);
+	width: 100%;
 	text-align: center;
+}
+.title {
+	font-size: 40px;
 }
 .section {
 	padding: 3.5%;
+}
+.imagecont {
+	height: 150px;
+	width: 150px;
+	background-color: var(--bg-dark);
+}
+.image {
+	position: relative;
+	transform: translate(15%, 5%);
+	height: 75%;
+	width: 75%;
+	background-color: var(--bg-light);
 }
 .sectiontextnorm {
 	margin: 20px 0 0 0;
