@@ -12,7 +12,8 @@
 		},
 		"cost":1,
 		"name":"Makari-Hari",
-		"title":"The God"
+		"title":"The God",
+		"types":["energy", "god", "card"]
 	},
 	"mukaki":{
 		"src_god":"./scripts/resources/img/god/mukaki.png",
@@ -27,7 +28,8 @@
 		},
 		"cost":1,
 		"name":"Mukaki",
-		"title":"The Devil"
+		"title":"The Devil",
+		"types":["special", "devil", "swap", "card"]
 	},
 	"herclaus":{
 		"src_god":"./scripts/resources/img/god/herclaus.png",
@@ -42,7 +44,8 @@
 		},
 		"cost":1,
 		"name":"Herclaus",
-		"title":"The Spearman"
+		"title":"The Spearman",
+		"types":["rmenergy"]
 	},
 	"cerkles":{
 		"src_god":"./scripts/resources/img/god/cerkles.png",
@@ -57,7 +60,8 @@
 		},
 		"cost":1,
 		"name":"Cerkles",
-		"title":"The Chirurgeon"
+		"title":"The Chirurgeon",
+		"types":["card"]
 	},
 	"krokos":{
 		"src_god":"./scripts/resources/img/god/krokos.png",
@@ -72,7 +76,8 @@
 		},
 		"cost":1,
 		"name":"Krokos",
-		"title":"The Arcanist"
+		"title":"The Arcanist",
+		"types":["rmcard"]
 	},
 	"zermes":{
 		"src_god":"./scripts/resources/img/god/zermes.png",
@@ -87,7 +92,8 @@
 		},
 		"cost":1,
 		"name":"Zermes",
-		"title":"The Gambler"
+		"title":"The Gambler",
+		"types":["card", "special"]
 	},
 	"kyros":{
 		"src_god":"./scripts/resources/img/god/kyros.png",
@@ -102,7 +108,8 @@
 		},
 		"name":"Kyros",
 		"cost":1,
-		"title":"The Spy"
+		"title":"The Spy",
+		"types":["info"]
 	},
 	"timaios":{
 		"src_god":"./scripts/resources/img/god/timaios.png",
@@ -117,7 +124,8 @@
 		},
 		"cost":1,
 		"name":"Timaios",
-		"title":"The Senator"
+		"title":"The Senator",
+		"types":["special", "swap"]
 	},
 	"sulpicius":{
 		"src_god":"./scripts/resources/img/god/sulpi.png",
@@ -132,7 +140,8 @@
 		},
 		"cost":2,
 		"name":"Sulpicius",
-		"title":"The Governor"
+		"title":"The Governor",
+		"types":["card", "special"]
 	},
 	"regulus":{
 		"src_god":"./scripts/resources/img/god/regulus.png",
@@ -147,7 +156,8 @@
 		},
 		"cost":1,
 		"name":"Regulus",
-		"title":"The Tribune"
+		"title":"The Tribune",
+		"types":["rmcard"]
 	},
 	"drusus":{
 		"src_god":"./scripts/resources/img/god/drusus.png",
@@ -162,7 +172,8 @@
 		},
 		"cost":2,
 		"name":"Drusus",
-		"title":"The Oracle"
+		"title":"The Oracle",
+		"type":["special", "card", "trial"]
 	},
 	"varius":{
 		"src_god":"./scripts/resources/img/god/varius.png",
@@ -177,7 +188,8 @@
 		},
 		"cost":2,
 		"name":"Varius",
-		"title":"The Censor"
+		"title":"The Censor",
+		"types":["energy"]
 	},
 	"nikos":{
 		"src_god":"./scripts/resources/img/god/nikos.png",
@@ -192,7 +204,8 @@
 		},
 		"cost":1,
 		"name":"Nikos",
-		"title":"The Lobbyist"
+		"title":"The Lobbyist",
+		"types":["special"]
 	},
 	"caelius":{
 		"src_god":"./scripts/resources/img/god/caelius.png",
@@ -207,7 +220,8 @@
 		},
 		"name":"Caelius",
 		"cost":2,
-		"title":"The Cavalry"
+		"title":"The Cavalry",
+		"types":["rmcard", "energy"]
 	},
 	"aristotle":{
 		"src_god":"./scripts/resources/img/god/aristotle.png",
@@ -222,7 +236,8 @@
 		},
 		"name":"Aristotle",
 		"cost":1,
-		"title":"The Quaestor"
+		"title":"The Quaestor",
+		"types":["card"]
 	},
 	"alkaios":{
 		"src_god":"./scripts/resources/img/god/alkaios.png",
@@ -237,7 +252,8 @@
 		},
 		"name":"Alkaios",
 		"cost":1,
-		"title":"The Warmaster"
+		"title":"The Warmaster",
+		"types":["special", "energy", "card"]
 	},
 	"gaios":{
 		"src_god":"./scripts/resources/img/god/gaios.png",
@@ -252,7 +268,8 @@
 		},
 		"name":"Gaios",
 		"cost":1,
-		"title":"The Quartermaster"
+		"title":"The Quartermaster",
+		"types":["special", "energy", "card"]
 	},
 	"lysander":{
 		"src_god":"./scripts/resources/img/god/lysander.png",
@@ -267,6 +284,7 @@
 		},
 		"name":"Lysander",
 		"cost":2,
-		"title":"The Trumpeter"
+		"title":"The Trumpeter",
+		"types":["card", "energy"]
 	}
 }

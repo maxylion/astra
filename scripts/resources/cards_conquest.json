@@ -12,7 +12,8 @@
 		},
 		"cost":2,
 		"name":"Makari-Hari",
-		"title":"The God"
+		"title":"The God",
+		"types":["card", "energy", "god"]
 	},
 	"mukaki":{
 		"src_god":"./scripts/resources/img/god/mukaki.png",
@@ -27,7 +28,8 @@
 		},
 		"cost":2,
 		"name":"Mukaki",
-		"title":"The Devil"
+		"title":"The Devil",
+		"types":["rmcard", "card", "devil"]
 	},
 	"herclaus":{
 		"src_god":"./scripts/resources/img/god/herclaus.png",
@@ -42,7 +44,8 @@
 		},
 		"cost":2,
 		"name":"Herclaus",
-		"title":"The Spearman"
+		"title":"The Spearman",
+		"types":["rmenergy"]
 	},
 	"cerkles":{
 		"src_god":"./scripts/resources/img/god/cerkles.png",
@@ -57,7 +60,8 @@
 		},
 		"cost":2,
 		"name":"Cerkles",
-		"title":"The Chirurgeon"
+		"title":"The Chirurgeon",
+		"types":["card"]
 	},
 	"krokos":{
 		"src_god":"./scripts/resources/img/god/krokos.png",
@@ -72,7 +76,8 @@
 		},
 		"cost":2,
 		"name":"Krokos",
-		"title":"The Arcanist"
+		"title":"The Arcanist",
+		"types":["rmcard"]
 	},
 	"zermes":{
 		"src_god":"./scripts/resources/img/god/zermes.png",
@@ -87,7 +92,8 @@
 		},
 		"cost":2,
 		"name":"Zermes",
-		"title":"The Gambler"
+		"title":"The Gambler",
+		"types":["card", "special"]
 	},
 	"kyros":{
 		"src_god":"./scripts/resources/img/god/kyros.png",
@@ -102,7 +108,8 @@
 		},
 		"name":"Kyros",
 		"cost":2,
-		"title":"The Spy"
+		"title":"The Spy",
+		"types":["info"]
 	},
 	"timaios":{
 		"src_god":"./scripts/resources/img/god/timaios.png",
@@ -117,7 +124,8 @@
 		},
 		"cost":2,
 		"name":"Timaios",
-		"title":"The Senator"
+		"title":"The Senator",
+		"types":["special", "swap"]
 	},
 	"sulpicius":{
 		"src_god":"./scripts/resources/img/god/sulpi.png",
@@ -130,9 +138,10 @@
 			"ability":"None",
 			"passive": "Mukaki's side draws their Cards last. The Consul draws three Cards. They keep one to pick and return the other two Cards to the top of the deck in any order."
 		},
-		"cost":4,
+		"cost":3,
 		"name":"Sulpicius",
-		"title":"The Governor"
+		"title":"The Governor",
+		"types":["card", "special"]
 	},
 	"regulus":{
 		"src_god":"./scripts/resources/img/god/regulus.png",
@@ -147,7 +156,8 @@
 		},
 		"cost":2,
 		"name":"Regulus",
-		"title":"The Tribune"
+		"title":"The Tribune",
+		"types":["rmcard"]
 	},
 	"drusus":{
 		"src_god":"./scripts/resources/img/god/drusus.png",
@@ -160,9 +170,10 @@
 			"ability":"Everyone on Mukaki's side draws one card, then preforms two trials only Mukaki's side can participate in.",
 			"passive":"None"
 		},
-		"cost":4,
+		"cost":3,
 		"name":"Drusus",
-		"title":"The Oracle"
+		"title":"The Oracle",
+		"type":["special", "card", "trial"]
 	},
 	"varius":{
 		"src_god":"./scripts/resources/img/god/varius.png",
@@ -175,9 +186,10 @@
 			"ability":"Take all Energy from the Hero on Makari-Hari's side with the most Energy. (If a tie, pick one) Distribute this Energy to players as desired.",
 			"passive":"None"
 		},
-		"cost":4,
+		"cost":3,
 		"name":"Varius",
-		"title":"The Censor"
+		"title":"The Censor",
+		"types":["energy", "special"]
 	},
 	"nikos":{
 		"src_god":"./scripts/resources/img/god/nikos.png",
@@ -192,7 +204,8 @@
 		},
 		"cost":2,
 		"name":"Nikos",
-		"title":"The Lobbyist"
+		"title":"The Lobbyist",
+		"types":["special"]
 	},
 	"caelius":{
 		"src_god":"./scripts/resources/img/god/caelius.png",
@@ -206,8 +219,9 @@
 			"passive":"None"
 		},
 		"name":"Caelius",
-		"cost":4,
-		"title":"The Cavalry"
+		"cost":3,
+		"title":"The Cavalry",
+		"types":["rmcard", "energy"]
 	},
 	"aristotle":{
 		"src_god":"./scripts/resources/img/god/aristotle.png",
@@ -222,7 +236,8 @@
 		},
 		"name":"Aristotle",
 		"cost":2,
-		"title":"The Quaestor"
+		"title":"The Quaestor",
+		"types":["card"]
 	},
 	"alkaios":{
 		"src_god":"./scripts/resources/img/god/alkaios.png",
@@ -237,7 +252,8 @@
 		},
 		"name":"Alkaios",
 		"cost":2,
-		"title":"The Warmaster"
+		"title":"The Warmaster",
+		"types":["special", "energy", "card"]
 	},
 	"gaios":{
 		"src_god":"./scripts/resources/img/god/gaios.png",
@@ -252,7 +268,8 @@
 		},
 		"name":"Gaios",
 		"cost":2,
-		"title":"The Quartermaster"
+		"title":"The Quartermaster",
+		"types":["special", "energy", "card"]
 	},
 	"lysander":{
 		"src_god":"./scripts/resources/img/god/lysander.png",
@@ -266,7 +283,8 @@
 			"passive":"None"
 		},
 		"name":"Lysander",
-		"cost":4,
-		"title":"The Trumpeter"
+		"cost":3,
+		"title":"The Trumpeter",
+		"types":["card", "energy"]
 	}
 }
