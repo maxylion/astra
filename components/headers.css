@@ -41,8 +41,8 @@ ul li {
 	border-radius: 14px;
 }
 #container:hover {
-	border: 4px solid var(--bg-dark);
-	background-color: var(--bg-light-border);
+	border: 4px solid var(--bg-light-border);
+	background-color: var(--bg-light);
 	color: var(--bg-dark);
 	border-radius: 14px;
 }
