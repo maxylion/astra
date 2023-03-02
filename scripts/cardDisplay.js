@@ -10,6 +10,15 @@ const modes = {
 	pvp:"takeover",
 	coop:"conquest"
 };
+const categoryNames = {
+	"energy":"Energy generation",
+	"card": "Card generation",
+	"rmenergy": "Energy removal",
+	"rmcard": "Card removal",
+	"special": "Special effect",
+	"swap": "Card swap",
+	"trial": "Trial effects",
+};
 let type = "";
 let mode = modes.pvp;
 let currentCard = "";
@@ -19,6 +28,17 @@ function load(){
 	document.getElementById("cardimgfull").style.visibility = "hidden";
 	document.getElementById("side").style.backgroundColor = "#D9A94D";
 	document.getElementById("display").style.display = "none";
+}
+function filter(arr){
+	let str = "";
+	let [a, b, c, d] = arr;
+	let nArr = [a, b, c, d].filter((m) =>{
+		value != undefined;
+	});
+	nArr.forEach(cat => {
+		str.concat(`${categoryNames[cat]}, `);
+	});
+	return str;
 }
 function changeCard(cardName) {
 	currentCard = cardName;
@@ -30,15 +50,17 @@ function changeCard(cardName) {
 	.then((res) => res.json())
 	.then((data) => {
 		let img = new Image();
-		let info = data[currentCard][`info_${side}`];
-		img.src = data[currentCard][`src_${side}`];
+		let currentData = data[currentCard];
+		let info = currentData[`info_${side}`];
+		img.src = currentData[`src_${side}`];
 		document.getElementById("cardimgfull").src = img.src;
 		document.getElementById("abil").textContent = `Active Ability: ${info["ability"]}`
 		document.getElementById("abil2").textContent = `Passive Ability: ${info["passive"]}`
-		document.getElementById("cost").textContent = `Summon cost: ${data[currentCard]["cost"]}`
-		document.getElementById("title").textContent = data[currentCard]["name"];
-		document.getElementById("title2").textContent = data[currentCard]["title"];
+		document.getElementById("cost").textContent = `Summon cost: ${currentData["cost"]}`
+		document.getElementById("title").textContent = currentData["name"];
+		document.getElementById("title2").textContent = currentData["title"];
 		document.getElementById("title2").style.width = document.getElementById("title").style.width;
+		document.getElementById("cat").textContent = `Categories: ${filter(currentData["types"])}`;
 	});
 }
 function changeColor(newColor){
@@ -67,6 +89,7 @@ function changeSpell(spellName){
 		document.getElementById("title").textContent = name;
 		document.getElementById("title2").textContent = "Spell Card";
 		document.getElementById("title2").style.width = document.getElementById("title").style.width;
+		document.getElementById("cat").textContent = "";
 	})
 }
 function changeMode(){

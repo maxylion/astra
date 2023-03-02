@@ -13,7 +13,7 @@
 		"cost":1,
 		"name":"Makari-Hari",
 		"title":"The God",
-		"types":["energy", "god", "card"]
+		"types":["energy", "card"]
 	},
 	"mukaki":{
 		"src_god":"./scripts/resources/img/god/mukaki.png",
@@ -29,7 +29,7 @@
 		"cost":1,
 		"name":"Mukaki",
 		"title":"The Devil",
-		"types":["special", "devil", "swap", "card"]
+		"types":["special", "swap", "card"]
 	},
 	"herclaus":{
 		"src_god":"./scripts/resources/img/god/herclaus.png",
@@ -109,7 +109,7 @@
 		"name":"Kyros",
 		"cost":1,
 		"title":"The Spy",
-		"types":["info"]
+		"types":["trial"]
 	},
 	"timaios":{
 		"src_god":"./scripts/resources/img/god/timaios.png",

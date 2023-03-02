@@ -70,7 +70,7 @@ button {
 	width: 100%;
 	margin-bottom: 30px;
 }
-#row {
+.row {
 	flex-direction: row;
 	display: flex
 }
@@ -81,7 +81,7 @@ button {
 	height: 85px;
 	background-color: var(--bg-light);
 }
-#icon *{
+.icon *{
 	margin-right: 10px;
 	width: 85px;
 	height: 85px;
