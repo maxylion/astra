@@ -1,1 +1,13 @@
-Card Categories *DONE*
+Important-ish:
+Add Hero Pack III cards when they release.
+
+Soon:
+Card Categories *DONE* 
+Add Turn Order (Mechanics list)
+Proofread Hero Abilities (Takeover/Conquest)
+
+Down the line:
+Mobile support
+
+Not soon at all:
+Skin List
