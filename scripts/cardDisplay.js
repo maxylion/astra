@@ -36,7 +36,7 @@ function filter(arr){
 		value != undefined;
 	});
 	nArr.forEach(cat => {
-		str.concat(`${categoryNames[cat]}, `);
+		str.concat(`${categoryNames[cat]} `);
 	});
 	return str;
 }

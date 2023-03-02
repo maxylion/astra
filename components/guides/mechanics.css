@@ -1,0 +1,81 @@
+
+:root {
+	--font-color: white;
+	--main-dark-bg: #343434;
+	--bg-light: #E9C668;
+	--bg-dark: #301D36;
+	--bg-dark-border: #7648B0;
+	--bg-light-border: #EBEBEB;
+	--card-select-red: #ED0000;
+	--card-select-green: #3FBD2B;
+	--card-select-blue: #3582DB;
+	--card-select-yellow: #F0E035;
+}
+
+#headeri {
+	width: 100%;
+}
+.guideimg {
+	height: 50%;
+	width: 100%;
+	object-fit: cover;
+}
+.guideframe {
+	width: 100%;
+}
+.center {
+	background-color: var(--bg-dark);
+	width: 100%;
+	text-align: center;
+}
+.title {
+	font-size: 40px;
+}
+.titlebig {
+	padding: 2% 0;
+	font-size: 40px;
+	background-color: var(--bg-light);
+}
+.titlebg {
+	width: 40%;
+	background-color: var(--bg-light);
+}
+.margin h1 {
+	padding: 1%;
+}
+.section {
+	padding: 2.5%;
+}
+.imagecont {
+	height: 150px;
+	width: 150px;
+	background-color: var(--bg-dark);
+}
+.image {
+	position: relative;
+	transform: translate(15%, 5%);
+	height: 75%;
+	width: 75%;
+	background-color: var(--bg-light);
+}
+.sectiontextnorm {
+	margin: 20px 0 0 0;
+	font-size: 24px;
+	width: 100%;
+	text-align: justify;
+}
+.margin {
+	margin: 20px 0 10px 15px;
+}
+* {
+	font-family: 'Zilla Slab', serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: var(--main-dark-bg);
+	color: var(--font-color);
+}
+a {
+	color: var(--font-color);
+}

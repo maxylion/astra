@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="Astra - Mechanics" property="og:title" />
+    <meta content="Astatos Mechanic List" property="og:description" />
+    <meta content="https://maxylion.github.io/astra/components/guides/mechanics.html" property="og:url" />
+    <meta content="#E9C668" data-react-helmet="true" name="theme-color" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" href="./mechanics.css">
+	<title>Astra - Mechanics Reference</title>
+</head>
+<body onload="load()">
+	<iframe id="headeri" src="../headers.html" frameborder="0"></iframe>
+	<div id="guideframe">
+		<h1 class="titlebig center">Mechanics Reference</h1>
+		<div class="section">
+			<div class="margin">
+				<h1 class="title titlebg" id="trials">
+					Trials
+				</h1>
+			</div>
+			<p class="sectiontextnorm" >
+				Main way to gain <a href="#energy">Energy</a>. Play cards of the same element as the trial element to gain <a href="#energy">Energy</a>. 
+				<br> Note: Spell Cards will not grant <a href="#energy">Energy</a>.
+			</p>
+		</div>
+		<div class="section">
+			<div class="margin">
+				<h1 class="title titlebg" id="influence">
+					Influence
+				</h1>
+			</div>
+			<p class="sectiontextnorm">
+				(Takeover only) Win condition for Takeover Trials. Gained when using Hero Abilities or when only your opponent skips a <a href="#trial">Trial</a>. Lost when your opponent uses Hero Abilities or when only you skip a <a href="#trial">Trial</a>.
+			</p>
+		</div>
+		<div class="section">
+			<div class="margin">
+				<h1 class="title titlebg" id="seals">
+					Seals
+				</h1>
+			</div>
+			<p class="sectiontextnorm">
+				(Conquest only) Win condition for Makari-Hari's side in Conquest Trials.
+				<br> Only gained when Makari-Hari's side uses a Hero ability (Cannot be lost by skipping trials)
+			</p>
+		</div>
+		<div class="section">
+			<div class="margin">
+				<h1 class="title titlebg" id="energy">
+					Energy
+				</h1>
+			</div>
+			<p class="sectiontextnorm">
+				Gained when playing cards in the Trial Phase or with certain Hero Abilities (See more: <a href="../../cards.html">Card List</a>)
+				<br>(Conquest) When a player has 0 Energy remaining, they will turn to the opposite side.
+			</p>
+		</div>
+		<div class="section">
+			<div class="margin">
+				<h1 class="title titlebg" id="exchange">
+					Exchange
+				</h1>
+			</div>
+			<p class="sectiontextnorm">
+				Exchange 3 Cards for 1 <a href="#energy">Energy</a>.
+				<br>(Takeover) Can only be used when under 2 Energy.
+				<br>(Conquest) Can only be used when you have 0 Energy.
+				<br> Note: Exchange cost can be reduced to 2 Cards by summoning Gaios (See: <a href="../../cards.html">Card List</a>)
+			</p>
+		</div>
+		<div class="section">
+			<div class="margin">
+				<h1 class="title titlebg" id="heroes">
+					Heroes
+				</h1>
+			</div>
+			<p class="sectiontextnorm">
+				Most Heroes require <a href="#energy">Energy</a> to summon and use.
+				<br>(Takeover) Main way to gain <a href="#influence">Influence</a>.
+				<br>(Conquest) Only way to gain <a href="#seals">Seals</a> while on Makari-Hari's side.
+				<br>See more: <a href="../../cards.html">Card List</a>
+			</p>
+		</div>
+		<div class="section">
+			<div class="margin">
+				<h1 class="title titlebg" id="disparity">
+					Disparity
+				</h1>
+			</div>
+			<p class="sectiontextnorm">
+				(Takeover only) Gains 1 charge when skipping a <a href="#trial">Trial</a>.
+				<br>When holding 3 charges, you can preform "Disparage". (Doubles all <a href="influence">Influence</a> gained)
+			</p>
+		</div>
+		<div class="section">
+			<div class="margin">
+				<h1 class="title titlebg" id="resolve">
+					Resolve
+				</h1>
+			</div>
+			<p class="sectiontextnorm">
+				(Conquest only) Gained when Mukaki's side uses Hero Abilities, prevents players affected by Resolve from turning over to Makari-Hari's side.
+				<br>Each player has a power value calculated by: (Energy x 2) + Cards.
+				<br>This power value determines who gets Resolve first. (if tied, a player without <a href="#energy">Energy</a> gets affected instead)
+			</p>
+		</div>
+	</div>
+</body>
+</html>
