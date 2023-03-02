@@ -1,0 +1,52 @@
+:root {
+	--font-color: white;
+	--main-dark-bg: #343434;
+	--bg-light: #E9C668;
+	--bg-dark: #301D36;
+	--bg-dark-border: #7648B0;
+	--bg-light-border: #EBEBEB;
+	--card-select-red: #ED0000;
+	--card-select-green: #3FBD2B;
+	--card-select-blue: #3582DB;
+	--card-select-yellow: #F0E035;
+}
+#headeri {
+	width: 100%;
+}
+.title {
+	font-size: 48px;
+	width: 100%;
+	padding: 1% 0;
+	text-align: center;
+	background-color: var(--bg-dark);
+}
+.container {
+	padding: 1% 0% 1% 0%;
+	margin: 60px 20px;
+	width: 90%;
+}
+ul {
+	list-style: none;
+}
+.container * {
+	margin: 10px;
+}
+.changetitle {
+	font-size: 38px;
+	width: max-content;
+	height: 100%;
+	padding: 1% 2%;
+	background-color: var(--bg-light);
+}
+.changelist *{
+	font-size: 24px;
+}
+* {
+	font-family: 'Zilla Slab', serif;
+	margin: 0;
+	padding: 0;
+	color: var(--font-color);
+}
+body {
+	background-color: var(--main-dark-bg);
+}
