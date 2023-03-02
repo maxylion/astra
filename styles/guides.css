@@ -54,10 +54,6 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-.guideimg {
-	height: 50%;
-	width: 100%;
-}
 .guidetitle {
 	width: 100%;
 	display: block;
