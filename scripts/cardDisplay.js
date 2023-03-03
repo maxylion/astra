@@ -26,7 +26,7 @@ let color = "red";
 let side = sides.makari;
 function load(){
 	document.getElementById("cardimgfull").style.visibility = "hidden";
-	document.getElementById("side").style.backgroundColor = "#D9A94D";
+	document.getElementById("side").style.backgroundColor = "#330000";
 	document.getElementById("display").style.display = "none";
 }
 function filter(arr){
