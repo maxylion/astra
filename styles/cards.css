@@ -67,12 +67,14 @@ button {
 }
 #wrapper {
 	display: flex;
-	width: 100%;
+	flex-direction: column;
+	width: 90vw;
 	margin-bottom: 30px;
 }
 .row {
 	flex-direction: row;
-	display: flex
+	flex-wrap: wrap;
+	display: flex;
 }
 #cons *{
 	font-size: 17px;
@@ -89,15 +91,16 @@ button {
 	background-color: var(--bg-light);
 }
 #display {
-	max-width: 50%;
+	max-width: 70vw;
+	max-height: 65vh;
 	background-color: var(--bg-dark);
 	margin: 5%;
 	padding: 1%;
 }
 #cardimgfull {
 	visibility: hidden;
-	width: 250px;
-	height: 400px;
+	width: 25vw;
+	height: 40vw;
 }
 #info {
 	display: flex;
