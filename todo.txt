@@ -5,9 +5,7 @@ Soon:
 Card Categories *DONE* 
 Add Turn Order (Mechanics list)
 Proofread Hero Abilities (Takeover/Conquest)
-
-Down the line:
-Mobile support
+Mobile support *DONE*
 
 Not soon at all:
 Skin List

@@ -68,7 +68,7 @@ button {
 }
 #wrapper {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	width: 100vw;
 	margin-bottom: 30px;
 }
@@ -91,11 +91,24 @@ button {
 	height: 85px;
 	font-size: 20px;
 	background-color: var(--bg-light);
+	color: var(--bg-dark);
+}
+@media only screen and (max-width: 768px){
+	#sidechanger {
+		margin-top: 10px;
+	}
+	#head {
+		width: 100vw;
+	}
+	#wrapper {
+		display: flex;
+		flex-direction: column	;
+	}
 }
 #display {
-	max-width: 70vw;
+	max-width: 80vw;
 	max-height: 70vh;
-	background-color: var(--bg-dark);
+	background-color: var(--bg-makari);
 	margin: 5%;
 	padding: 1%;
 }
@@ -132,5 +145,5 @@ button {
 }
 body {
 	background-color: var(--main-dark-bg);
-	color: var(--font-color)
+	color: var(--font-color);
 }
