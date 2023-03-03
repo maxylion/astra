@@ -68,7 +68,7 @@ button {
 #wrapper {
 	display: flex;
 	flex-direction: column;
-	width: 90vw;
+	width: 100vw;
 	margin-bottom: 30px;
 }
 .row {
@@ -92,7 +92,7 @@ button {
 }
 #display {
 	max-width: 70vw;
-	max-height: 65vh;
+	max-height: 70vh;
 	background-color: var(--bg-dark);
 	margin: 5%;
 	padding: 1%;

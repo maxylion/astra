@@ -24,6 +24,9 @@ body {
 	background-color: var(--main-dark-bg);
 	color: var(--font-color);
 }
+.guideimg {
+	max-width: 50vw;
+}
 .title {
 	width: 100%;
 	font-size: 45px;
@@ -39,13 +42,13 @@ body {
 .guidepanel {
 	padding: 1% 2%;
 	margin-bottom: 50px;
-	margin-left: 75px;
-	height: 35%;
+	margin-left: 7vw;
+	height: 45vh;
 	width: 85%;
 	background-color: var(--bg-light);
 }
 .guidesummary {
-	margin-top: 20px;
+	margin-top: 1vh;
 	font-size: 27px;
 }
 .guidescontainer {
