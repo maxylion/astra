@@ -129,8 +129,8 @@ function changeSide(){
 		case sides.mukaki:
 			side = sides.makari;
 			button.textContent = "Makari-Hari's Side";
-			button.style.color = "#343434";
-			button.style.backgroundColor = "#D9A94D";
+			button.style.color = "#FFFFFF";
+			button.style.backgroundColor = "#330000";
 			break;
 	};
 	if (currentCard === "") {

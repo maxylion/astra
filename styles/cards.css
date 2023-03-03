@@ -6,6 +6,7 @@
 	--bg-dark: #301D36;
 	--bg-dark-border: #7648B0;
 	--bg-light-border: #EBEBEB;
+	--bg-makari: #330000;
 	--card-select-red: #ED0000;
 	--card-select-green: #3FBD2B;
 	--card-select-blue: #3582DB;
@@ -41,8 +42,8 @@ button {
 	height: 80px;
 	margin: 0 12%;
 	font-size: 20px;
-	color: var(--main-dark-bg);
-	background-color: var(--bg-light);
+	color: var(--font-color);
+	background-color: var(--bg-makari);
 }
 #sidechanger {
 	display: flex;
@@ -85,6 +86,7 @@ button {
 }
 .icon *{
 	margin-right: 10px;
+	margin-bottom: 4%;
 	width: 85px;
 	height: 85px;
 	font-size: 20px;
