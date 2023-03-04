@@ -119,6 +119,16 @@ button {
 	}
 
 }
+
+@media only screen and (min-width: 1920px){
+
+	#cardimgfull {
+		visibility: hidden;
+		width: 25vw;
+		height: 30vw;
+	}
+
+}
 #display {
 	max-width: 45vw;
 	max-height: 70vh;
