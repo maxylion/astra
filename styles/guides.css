@@ -26,13 +26,41 @@ body {
 }
 @media only screen and (max-width: 768px){
 	.guideimg {
-		max-width: 50vw;
-		max-height: 15vh;
+		width: 50vw;
+		height: 15vh;
+	}
+	.guidepanel {
+		padding: 1% 2%;
+		margin-bottom: 50px;
+		margin-left: 7vw;
+		height: 45vh;
+		width: 85%;
+		background-color: var(--bg-light);
 	}
 }
-.guideimg {
-	width: 45vw;
-	height: 30vh;
+
+@media only screen and (min-width: 1920px) {
+	.guideimg {
+		width: 25vw;
+		height: 20vh;
+	}
+	.guidescontainer {
+		height: 100vh;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.guidescontainer * {
+		align-self: center;
+	}
+	.guidepanel {
+		padding: 1% 2%;
+		margin-bottom: 50px;
+		margin-left: -3.5vw;
+		height: 30vh;
+		width: 50vw;
+		background-color: var(--bg-light);
+	}
 }
 .title {
 	width: 100%;
@@ -45,14 +73,6 @@ body {
 	text-align: center;
 	margin-bottom: 30px;
 	font-size: 36px;
-}
-.guidepanel {
-	padding: 1% 2%;
-	margin-bottom: 50px;
-	margin-left: 7vw;
-	height: 45vh;
-	width: 85%;
-	background-color: var(--bg-light);
 }
 .guidesummary {
 	margin-top: 1vh;

@@ -106,28 +106,13 @@ button {
 	}
 
 }
-@media only screen and (max-width: 768px){
-	#sidechanger {
-		margin-top: 10px;
-	}
-	#head {
-		width: 100vw;
-	}
-	#wrapper {
-		display: flex;
-		flex-direction: column	;
-	}
-
-}
 
 @media only screen and (min-width: 1920px){
-
 	#cardimgfull {
 		visibility: hidden;
 		width: 15vw;
 		height: 25vw;
 	}
-
 }
 #display {
 	max-width: 45vw;
