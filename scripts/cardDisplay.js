@@ -118,19 +118,21 @@ function changeMode(){
 }
 function changeSide(){
 	let button = document.getElementById("side");
-	
+	let display = document.getElementById("display");
 	switch (side) {
 		case sides.makari:
 			side = sides.mukaki;
 			button.textContent = "Mukaki's Side";
 			button.style.color = "#FFFFFF";
-			button.style.backgroundColor = "#240E41";
+			button.style.backgroundColor = "#301D36";
+			display.style.backgroundColor = "#301D36";
 			break;
 		case sides.mukaki:
 			side = sides.makari;
 			button.textContent = "Makari-Hari's Side";
 			button.style.color = "#FFFFFF";
 			button.style.backgroundColor = "#330000";
+			display.style.backgroundColor = "#330000";
 			break;
 	};
 	if (currentCard === "") {
