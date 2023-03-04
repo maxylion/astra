@@ -38,7 +38,7 @@
 	background-color: var(--bg-light);
 }
 .titlebg {
-	width: 50vw;
+	width: 15vw;
 	background-color: var(--bg-light);
 }
 .margin h1 {
@@ -67,6 +67,12 @@
 }
 .margin {
 	margin: 20px 0 10px 15px;
+}
+
+@media only screen and (max-width: 768px){
+	.titlebg {
+		width: 50vw;
+	}
 }
 * {
 	font-family: 'Zilla Slab', serif;
