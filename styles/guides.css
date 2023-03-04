@@ -24,8 +24,15 @@ body {
 	background-color: var(--main-dark-bg);
 	color: var(--font-color);
 }
+@media only screen and (max-width: 768px){
+	.guideimg {
+		max-width: 50vw;
+		max-height: 15vh;
+	}
+}
 .guideimg {
-	max-width: 50vw;
+	width: 45vw;
+	height: 30vh;
 }
 .title {
 	width: 100%;

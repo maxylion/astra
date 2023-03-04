@@ -104,6 +104,20 @@ button {
 		display: flex;
 		flex-direction: column	;
 	}
+
+}
+@media only screen and (max-width: 768px){
+	#sidechanger {
+		margin-top: 10px;
+	}
+	#head {
+		width: 100vw;
+	}
+	#wrapper {
+		display: flex;
+		flex-direction: column	;
+	}
+
 }
 #display {
 	max-width: 45vw;
@@ -114,8 +128,8 @@ button {
 }
 #cardimgfull {
 	visibility: hidden;
-	width: 25vw;
-	height: 40vw;
+	max-width: 25vw;
+	max-height: 30vw;
 }
 #info {
 	display: flex;
