@@ -132,11 +132,11 @@
 		"src_devil":"./scripts/resources/img/devil/sulpi.png",
 		"info_god":{
 			"ability":"None",
-			"passive": "Makari-Hari's side draws their Cards last. Three Cards are pulled from the deck. Pick one to keep and return the other two Cards to the top of the deck in any order"
+			"passive": "Makari-Hari's side draws their Cards last. Three Cards are pulled from the deck. Pick one to keep and return the other two Cards to the top of the deck in any order."
 		},
 		"info_devil":{
 			"ability":"None",
-			"passive": "Mukaki's side draws their Cards last. Three Cards are pulled from the deck. Pick one to keep and return the other two Cards to the top of the deck in any order"
+			"passive": "Mukaki's side draws their Cards last. Three Cards are pulled from the deck. Pick one to keep and return the other two Cards to the top of the deck in any order."
 		},
 		"cost":2,
 		"name":"Sulpicius",
@@ -211,11 +211,11 @@
 		"src_god":"./scripts/resources/img/god/caelius.png",
 		"src_devil":"./scripts/resources/img/devil/caelius.png",
 		"info_god":{
-			"ability":"Mukaki's side must submit one Card from their hand to Makari-Hari's side. This card is converted into Energy.",
+			"ability":"Mukaki's side must submit one Card from their hand to Makari-Hari's side. This Card is converted into Energy.",
 			"passive":"None"
 		},
 		"info_devil":{
-			"ability":"Makari-Hari's side must submit one Card from their hand to Mukaki's side. This card is converted into Energy.",
+			"ability":"Makari-Hari's side must submit one Card from their hand to Mukaki's side. This Card is converted into Energy.",
 			"passive":"None"
 		},
 		"name":"Caelius",
@@ -228,11 +228,11 @@
 		"src_devil":"./scripts/resources/img/devil/aristotle.png",
 		"info_god":{
 			"ability":"None",
-			"passive": "When you draw a spell card, show that Card to your opponent, the draw an additional Card (Once per round)."
+			"passive": "When you draw a spell card, show that Card to your opponent, the draw an additional Card. (Once per round)"
 		},
 		"info_devil":{
 			"ability":"None",
-			"passive": "When you draw a spell card, show that Card to your opponent, the draw an additional Card (Once per round)."
+			"passive": "When you draw a spell card, show that Card to your opponent, the draw an additional Card. (Once per round)"
 		},
 		"name":"Aristotle",
 		"cost":1,
@@ -243,11 +243,11 @@
 		"src_god":"./scripts/resources/img/god/alkaios.png",
 		"src_devil":"./scripts/resources/img/devil/alkaios.png",
 		"info_god":{
-			"ability":"Each side can wager their Energy. The side with the largest wager draws two Cards per Energy wagered. All energy offered is discarded. If tied no side wins. This ability resolves at the end of the Hero Stage",
+			"ability":"Each side can wager their Energy. The side with the largest wager draws two Cards per Energy wagered. All energy offered is discarded. If tied no side wins. This ability resolves at the end of the Hero Stage.",
 			"passive":"None"
 		},
 		"info_devil":{
-			"ability":"Each side can wager their Energy. The side with the largest wager draws two Cards per Energy wagered. All energy offered is discarded. If tied no side wins. This ability resolves at the end of the Hero Stage",
+			"ability":"Each side can wager their Energy. The side with the largest wager draws two Cards per Energy wagered. All energy offered is discarded. If tied no side wins. This ability resolves at the end of the Hero Stage.",
 			"passive":"None"
 		},
 		"name":"Alkaios",
@@ -260,11 +260,11 @@
 		"src_devil":"./scripts/resources/img/devil/gaios.png",
 		"info_god":{
 			"ability":"None",
-			"passive": "The cost to preform an Exchange is reduced to two Cards for Makari-Hari's side"
+			"passive": "The cost to preform an Exchange is reduced to two Cards for Makari-Hari's side."
 		},
 		"info_devil":{
 			"ability":"None",
-			"passive": "The cost to preform an Exchange is reduced to two Cards for Mukaki's side"
+			"passive": "The cost to preform an Exchange is reduced to two Cards for Mukaki's side."
 		},
 		"name":"Gaios",
 		"cost":1,

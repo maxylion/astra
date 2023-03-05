@@ -7,7 +7,7 @@
 			"passive":"When a player on Makari-Hari's side uses a spell card, draw one additional Card."
 		},
 		"info_devil":{
-			"ability":"Entangled in binding lies, Makari-Hari cannot use any abilities",
+			"ability":"Entangled in binding lies, Makari-Hari cannot use any abilities.",
 			"passive":"None"
 		},
 		"cost":2,
@@ -19,11 +19,11 @@
 		"src_god":"./scripts/resources/img/god/mukaki.png",
 		"src_devil":"./scripts/resources/img/devil/mukaki.png",
 		"info_god":{
-			"ability":"Engulfed in holy light, Mukaki cannot use any abilities",
+			"ability":"Engulfed in holy light, Mukaki cannot use any abilities.",
 			"passive":"None"
 		},
 		"info_devil":{
-			"ability":"(Once per game) Add one seal, and every player must discard one Card for each player on their side",
+			"ability":"(Once per game) Add one seal, and every player must discard one Card for each player on their side.",
 			"passive":"Players on Mukaki's side can play as many Cards as they wish during a Trial."
 		},
 		"cost":2,
@@ -35,11 +35,11 @@
 		"src_god":"./scripts/resources/img/god/herclaus.png",
 		"src_devil":"./scripts/resources/img/devil/herclaus.png",
 		"info_god":{
-			"ability":"Choose one player on Mukaki's side to lose two Energy (Unless they have zero Energy remaining)",
+			"ability":"Choose one player on Mukaki's side to lose two Energy. (Unless they have zero Energy remaining)",
 			"passive": "None"
 		},
 		"info_devil":{
-			"ability":"Choose one player on Makari-Hari's side to lose two Energy (Unless they have zero Energy remaining)",
+			"ability":"Choose one player on Makari-Hari's side to lose two Energy. (Unless they have zero Energy remaining)",
 			"passive": "None"
 		},
 		"cost":2,
@@ -83,11 +83,11 @@
 		"src_god":"./scripts/resources/img/god/zermes.png",
 		"src_devil":"./scripts/resources/img/devil/zermes.png",
 		"info_god":{
-			"ability":"Discard your entire hand. Pull two Cards from the deck, then keep pulling pairs of Cards as long as the Elements match, else discard the last pair and stop.",
+			"ability":"Your side discards their entire hand and participate in turn. Pull two Cards from the deck to your hand. Keep pulling pairs of Cards as long as the Element match, else discard and stop.",
 			"passive":"None"
 		},
 		"info_devil":{
-			"ability":"Discard your entire hand. Pull two Cards from the deck, then keep pulling pairs of Cards as long as the Elements match, else discard the last pair and stop.",
+			"ability":"Your side discards their entire hand and participate in turn. Pull two Cards from the deck to your hand. Keep pulling pairs of Cards as long as the Element match, else discard and stop.",
 			"passive":"None"
 		},
 		"cost":2,
@@ -163,11 +163,11 @@
 		"src_god":"./scripts/resources/img/god/drusus.png",
 		"src_devil":"./scripts/resources/img/devil/drusus.png",
 		"info_god":{
-			"ability":"Everyone on Makari-Hari's side draws one card, then preforms two trials only Makari-Hari's side can participate in.",
+			"ability":"Everyone on Makari-Hari's side draws one card, then preforms two trials only Makari-Hari's side  participate in.",
 			"passive":"None"
 		},
 		"info_devil":{
-			"ability":"Everyone on Mukaki's side draws one card, then preforms two trials only Mukaki's side can participate in.",
+			"ability":"Everyone on Mukaki's side draws one card, then preforms two trials only Mukaki's side participate in.",
 			"passive":"None"
 		},
 		"cost":3,

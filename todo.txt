@@ -1,11 +1,15 @@
 Important-ish:
 Add Hero Pack III cards when they release.
 
-Soon:
-Card Categories *DONE* 
+Done:
+Card Categories
 Add Turn Order (Mechanics list)
 Proofread Hero Abilities (Takeover/Conquest)
-Mobile support *DONE*
+Mobile support
+Big screen support
+
+Soon:
+
 
 Not soon at all:
 Skin List
