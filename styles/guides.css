@@ -24,6 +24,26 @@ body {
 	background-color: var(--main-dark-bg);
 	color: var(--font-color);
 }
+.guideimg {
+	width: 25vw;
+	height: 20vh;
+}
+.guidescontainer {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.guidescontainer * {
+	align-self: center;
+}
+.guidepanel {
+	padding: 1% 2%;
+	margin-bottom: 50px;
+	height: 32.5vh;
+	width: 80vw;
+	background-color: var(--bg-light);
+}
 @media only screen and (max-width: 768px){
 	.guideimg {
 		width: 50vw;

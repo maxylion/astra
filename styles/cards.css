@@ -106,7 +106,6 @@ button {
 	}
 
 }
-
 @media only screen and (min-width: 1920px){
 	#cardimgfull {
 		visibility: hidden;
@@ -123,8 +122,8 @@ button {
 }
 #cardimgfull {
 	visibility: hidden;
-	width: 25vw;
-	height: 30vw;
+	width: 20vw;
+	height: 35vw;
 }
 #info {
 	display: flex;

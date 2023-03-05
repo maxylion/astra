@@ -26,20 +26,52 @@ ul li {
     display: inline-block;
     list-style-type: none;
 }
+
+.container {
+	padding: 0px 20px;
+	margin-left: 5vw;
+	border: 4px solid var(--bg-dark-border);
+	background-color: var(--bg-dark);
+	border-radius: 14px;
+}
+.container:hover {
+	border: 4px solid var(--bg-makari);
+	background-color: var(--bg-light);
+	color: var(--bg-dark);
+	border-radius: 14px;
+}
 @media only screen and (max-width: 768px) {
 	#header {
 		height: 150vh;
 	}
 	nav {
+		width: 100%;
 		height: 100%;
 	}
-	#title {
-		width: 100%;
-		text-align: center;
-	}
 	ul {
+		width: 70%;
 		display: flex;
 		flex-direction: column;
+	}
+	ul li{
+		text-align: center;
+		width: 100%;
+	}
+
+	.container {
+		padding: 0px 20px;
+		border: 4px solid var(--bg-dark-border);
+		background-color: var(--bg-dark);
+		border-radius: 14px;
+	}
+	.container:hover {
+		border: 4px solid var(--bg-makari);
+		background-color: var(--bg-light);
+		color: var(--bg-dark);
+		border-radius: 14px;
+	}
+	#title {
+		margin: 0 0 0 30%
 	}
 }
 @media only screen and (min-width: 1918px) { 
@@ -55,20 +87,4 @@ ul li {
 }
 #content {
 	display: flex;
-}
-#title {
-	margin-right: 5vw;
-}
-.container {
-	padding: 0px 20px;
-	margin-left: 5vw;
-	border: 4px solid var(--bg-dark-border);
-	background-color: var(--bg-dark);
-	border-radius: 14px;
-}
-.container:hover {
-	border: 4px solid var(--bg-makari);
-	background-color: var(--bg-light);
-	color: var(--bg-dark);
-	border-radius: 14px;
 }
