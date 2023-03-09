@@ -93,6 +93,11 @@ button {
 	background-color: var(--bg-light);
 	color: var(--bg-dark);
 }
+#cardimgfull {
+	visibility: hidden;
+	width: 30vw;
+	height: 55vh;
+}
 @media only screen and (max-width: 768px){
 	#sidechanger {
 		margin-top: 10px;
@@ -106,12 +111,12 @@ button {
 	}
 
 }
-@media only screen and (min-width: 1920px){
+@media only screen and (min-width: 1910px){
 	
 	#cardimgfull {
 		visibility: hidden;
-		width: 100%;
-		height: 35vw;
+		width: 20vw;
+		height: 55vh;
 	}
 }
 #display {
@@ -120,11 +125,6 @@ button {
 	background-color: var(--bg-makari);
 	margin: 5%;
 	padding: 1%;
-}
-#cardimgfull {
-	visibility: hidden;
-	width: 30vw;
-	height: 55vh;
 }
 #info {
 	display: flex;
