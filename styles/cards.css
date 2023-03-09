@@ -98,18 +98,46 @@ button {
 	width: 30vw;
 	height: 55vh;
 }
+#display {
+	max-width: 45vw;
+	max-height: 70vh;
+	background-color: var(--bg-makari);
+	margin: 5%;
+	padding: 1%;
+}
+#descdiv {
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+}
+#info {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
 @media only screen and (max-width: 768px){
 	#sidechanger {
 		margin-top: 10px;
 	}
 	#head {
-		width: 100vw;
+		width: 97vw;
+	}
+	#display {
+		max-width: 70vw;
+		max-height: 70vh;
+		background-color: var(--bg-makari);
+		margin: 5%;
+		padding: 1%;
+	}
+	#cardimgfull {
+		visibility: hidden;
+		width: 30vw;
+		height: 30vh;
 	}
 	#wrapper {
 		display: flex;
 		flex-direction: column	;
 	}
-
 }
 @media only screen and (min-width: 1910px){
 	
@@ -118,23 +146,6 @@ button {
 		width: 20vw;
 		height: 55vh;
 	}
-}
-#display {
-	max-width: 45vw;
-	max-height: 70vh;
-	background-color: var(--bg-makari);
-	margin: 5%;
-	padding: 1%;
-}
-#info {
-	display: flex;
-	flex-direction: row;
-	height: 100%;
-}
-#descdiv {
-	margin-left: 10px;
-	display: flex;
-	flex-direction: column;
 }
 #descdiv * {
 	font-size: 20px;
