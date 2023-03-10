@@ -1,21 +1,31 @@
 from PIL import Image
-from os import listdir
+from os import listdir, remove
 
-dev_path = "./devil/"
-god_path = "./god/"
+dev_path = "./icons/devil/"
+god_path = "./icons/god/"
 
 for file in listdir(dev_path):
-	print(f"File: {dev_path}{file}")
-	im = Image.open(f"{dev_path}{file}").convert("RGB")
-	new_size = (im.width // 2, im.height // 2)
-	im = im.resize(new_size)
-	im.save(f"{dev_path}{file}")
-	print(f"File: {dev_path}{file}")
+	new = dev_path + file
+	print(f"File: {new}")
+	im = Image.open(new).convert("RGB")
+	if im.size == (256, 256):
+		continue
+	else:
+		new_size = (im.width // 2, im.height // 2)
+		im = im.resize(new_size)
+		im.save(new.replace('.png', '.jpg'))
+		print(f"File: {new}")
+		remove(new)
 
 for file in listdir(god_path):
-	print(f"File: {god_path}{file}")
-	im = Image.open(f"{god_path}{file}").convert("RGB")
-	new_size = (im.width // 2, im.height // 2)
-	im = im.resize(new_size)
-	im.save(f"{dev_path}{file}")
-	print(f"File: {file}")
+	new = god_path + file
+	print(f"File: {new}")
+	im = Image.open(new).convert("RGB")
+	if im.size == (256, 256):
+		continue
+	else:
+		new_size = (im.width // 2, im.height // 2)
+		im = im.resize(new_size)
+		im.save(new.replace('.png', '.jpg'))
+		print(f"File: {new}")
+		remove(new)
