@@ -1,7 +1,7 @@
 {
 	"makari":{
-		"src_god":"./scripts/resources/img/god/makari.png",
-		"src_devil": "./scripts/resources/img/devil/makari.png",
+		"src_god":"./scripts/resources/img/god/makari.jpg",
+		"src_devil": "./scripts/resources/img/devil/makari.jpg",
 		"info_god":{
 			"ability":"(Once per game) Remove one Seal and obtain one Energy per player on Mukaki's side.",
 			"passive":"When a player on Makari-Hari's side uses a spell card, draw one additional Card."
@@ -16,8 +16,8 @@
 		"types":["card", "energy", "god"]
 	},
 	"mukaki":{
-		"src_god":"./scripts/resources/img/god/mukaki.png",
-		"src_devil":"./scripts/resources/img/devil/mukaki.png",
+		"src_god":"./scripts/resources/img/god/mukaki.jpg",
+		"src_devil":"./scripts/resources/img/devil/mukaki.jpg",
 		"info_god":{
 			"ability":"Engulfed in holy light, Mukaki cannot use any abilities.",
 			"passive":"None"
@@ -32,8 +32,8 @@
 		"types":["rmcard", "card", "devil"]
 	},
 	"herclaus":{
-		"src_god":"./scripts/resources/img/god/herclaus.png",
-		"src_devil":"./scripts/resources/img/devil/herclaus.png",
+		"src_god":"./scripts/resources/img/god/herclaus.jpg",
+		"src_devil":"./scripts/resources/img/devil/herclaus.jpg",
 		"info_god":{
 			"ability":"Choose one player on Mukaki's side to lose two Energy. (Unless they have zero Energy remaining)",
 			"passive": "None"
@@ -48,8 +48,8 @@
 		"types":["rmenergy"]
 	},
 	"cerkles":{
-		"src_god":"./scripts/resources/img/god/cerkles.png",
-		"src_devil":"./scripts/resources/img/devil/cerkles.png",
+		"src_god":"./scripts/resources/img/god/cerkles.jpg",
+		"src_devil":"./scripts/resources/img/devil/cerkles.jpg",
 		"info_god":{
 			"ability":"Every player on Makari-Hari's side draws one Card to their hand.",
 			"passive":"None"
@@ -64,8 +64,8 @@
 		"types":["card"]
 	},
 	"krokos":{
-		"src_god":"./scripts/resources/img/god/krokos.png",
-		"src_devil":"./scripts/resources/img/devil/krokos.png",
+		"src_god":"./scripts/resources/img/god/krokos.jpg",
+		"src_devil":"./scripts/resources/img/devil/krokos.jpg",
 		"info_god":{
 			"ability":"Each player on Mukaki's side discards two Cards from their hand.",
 			"passive": "None"
@@ -80,8 +80,8 @@
 		"types":["rmcard"]
 	},
 	"zermes":{
-		"src_god":"./scripts/resources/img/god/zermes.png",
-		"src_devil":"./scripts/resources/img/devil/zermes.png",
+		"src_god":"./scripts/resources/img/god/zermes.jpg",
+		"src_devil":"./scripts/resources/img/devil/zermes.jpg",
 		"info_god":{
 			"ability":"Your side discards their entire hand and participate in turn. Pull two Cards from the deck to your hand. Keep pulling pairs of Cards as long as the Element match, else discard and stop.",
 			"passive":"None"
@@ -96,8 +96,8 @@
 		"types":["card", "special"]
 	},
 	"kyros":{
-		"src_god":"./scripts/resources/img/god/kyros.png",
-		"src_devil":"./scripts/resources/img/devil/kyros.png",
+		"src_god":"./scripts/resources/img/god/kyros.jpg",
+		"src_devil":"./scripts/resources/img/devil/kyros.jpg",
 		"info_god":{
 			"ability":"None",
 			"passive":"When the Trial begins, players on the opposing side must reveal their hand to Makari-Hari's side."
@@ -112,8 +112,8 @@
 		"types":["info"]
 	},
 	"timaios":{
-		"src_god":"./scripts/resources/img/god/timaios.png",
-		"src_devil":"./scripts/resources/img/devil/timaios.png",
+		"src_god":"./scripts/resources/img/god/timaios.jpg",
+		"src_devil":"./scripts/resources/img/devil/timaios.jpg",
 		"info_god":{
 			"ability":"Pick two players. Those players must then swap hands.",
 			"passive":"None"
@@ -128,8 +128,8 @@
 		"types":["special", "swap"]
 	},
 	"sulpicius":{
-		"src_god":"./scripts/resources/img/god/sulpi.png",
-		"src_devil":"./scripts/resources/img/devil/sulpi.png",
+		"src_god":"./scripts/resources/img/god/sulpi.jpg",
+		"src_devil":"./scripts/resources/img/devil/sulpi.jpg",
 		"info_god":{
 			"ability":"None",
 			"passive": "Makari-Hari's side draws their Cards last. The Consul draws three Cards. They keep one to pick and return the other two Cards to the top of the deck in any order."
@@ -144,8 +144,8 @@
 		"types":["card", "special"]
 	},
 	"regulus":{
-		"src_god":"./scripts/resources/img/god/regulus.png",
-		"src_devil":"./scripts/resources/img/devil/regulus.png",
+		"src_god":"./scripts/resources/img/god/regulus.jpg",
+		"src_devil":"./scripts/resources/img/devil/regulus.jpg",
 		"info_god":{
 			"ability":"Pick an element, all players on Mukaki's side must discard all matching Cards from their hand.",
 			"passive":"None"
@@ -160,8 +160,8 @@
 		"types":["rmcard"]
 	},
 	"drusus":{
-		"src_god":"./scripts/resources/img/god/drusus.png",
-		"src_devil":"./scripts/resources/img/devil/drusus.png",
+		"src_god":"./scripts/resources/img/god/drusus.jpg",
+		"src_devil":"./scripts/resources/img/devil/drusus.jpg",
 		"info_god":{
 			"ability":"Everyone on Makari-Hari's side draws one card, then preforms two trials only Makari-Hari's side  participate in.",
 			"passive":"None"
@@ -176,8 +176,8 @@
 		"type":["special", "card", "trial"]
 	},
 	"varius":{
-		"src_god":"./scripts/resources/img/god/varius.png",
-		"src_devil":"./scripts/resources/img/devil/varius.png",
+		"src_god":"./scripts/resources/img/god/varius.jpg",
+		"src_devil":"./scripts/resources/img/devil/varius.jpg",
 		"info_god":{
 			"ability":"Take all Energy from the Hero on Mukaki's side with the most Energy. (If a tie, pick one) Distribute this Energy to players as desired.",
 			"passive":"None"
@@ -192,8 +192,8 @@
 		"types":["energy", "special"]
 	},
 	"nikos":{
-		"src_god":"./scripts/resources/img/god/nikos.png",
-		"src_devil":"./scripts/resources/img/devil/nikos.png",
+		"src_god":"./scripts/resources/img/god/nikos.jpg",
+		"src_devil":"./scripts/resources/img/devil/nikos.jpg",
 		"info_god":{
 			"ability": "For every hero on Mukaki's side with no energy, turn them to your side.",
 			"passive":"None"
@@ -208,8 +208,8 @@
 		"types":["special"]
 	},
 	"caelius":{
-		"src_god":"./scripts/resources/img/god/caelius.png",
-		"src_devil":"./scripts/resources/img/devil/caelius.png",
+		"src_god":"./scripts/resources/img/god/caelius.jpg",
+		"src_devil":"./scripts/resources/img/devil/caelius.jpg",
 		"info_god":{
 			"ability":"Each player on Mukaki's side must submit one Card from their hand to your side. These cards are distributed to your side as Energy.",
 			"passive":"None"
@@ -224,8 +224,8 @@
 		"types":["rmcard", "energy"]
 	},
 	"aristotle":{
-		"src_god":"./scripts/resources/img/god/aristotle.png",
-		"src_devil":"./scripts/resources/img/devil/aristotle.png",
+		"src_god":"./scripts/resources/img/god/aristotle.jpg",
+		"src_devil":"./scripts/resources/img/devil/aristotle.jpg",
 		"info_god":{
 			"ability":"None",
 			"passive": "When a player on Makari-Hari's side draws a spell card, show that Card everyone, the draw one additional Card (Once per round)."
@@ -240,8 +240,8 @@
 		"types":["card"]
 	},
 	"alkaios":{
-		"src_god":"./scripts/resources/img/god/alkaios.png",
-		"src_devil":"./scripts/resources/img/devil/alkaios.png",
+		"src_god":"./scripts/resources/img/god/alkaios.jpg",
+		"src_devil":"./scripts/resources/img/devil/alkaios.jpg",
 		"info_god":{
 			"ability":"Each side can wager their Energy. The side with the largest wager draws two Cards per Energy wagered. All energy offered is discarded. If tied no side wins. This ability resolves at the end of the Hero Stage",
 			"passive":"None"
@@ -256,8 +256,8 @@
 		"types":["special", "energy", "card"]
 	},
 	"gaios":{
-		"src_god":"./scripts/resources/img/god/gaios.png",
-		"src_devil":"./scripts/resources/img/devil/gaios.png",
+		"src_god":"./scripts/resources/img/god/gaios.jpg",
+		"src_devil":"./scripts/resources/img/devil/gaios.jpg",
 		"info_god":{
 			"ability":"None",
 			"passive": "The cost to preform an Exchange is reduced to two Cards for players on Makari-Hari's side"
@@ -272,8 +272,8 @@
 		"types":["special", "energy", "card"]
 	},
 	"lysander":{
-		"src_god":"./scripts/resources/img/god/lysander.png",
-		"src_devil":"./scripts/resources/img/devil/lysander.png",
+		"src_god":"./scripts/resources/img/god/lysander.jpg",
+		"src_devil":"./scripts/resources/img/devil/lysander.jpg",
 		"info_god":{
 			"ability": "Pick an Element, then a player. All matching Cards in their hand is converted into Energy.",
 			"passive":"None"

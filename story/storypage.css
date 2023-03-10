@@ -1,0 +1,68 @@
+
+:root {
+	--font-color: white;
+	--main-dark-bg: #343434;
+	--bg-light: #E9C668;
+	--bg-dark: #301D36;
+	--bg-dark-border: #7648B0;
+	--bg-light-border: #EBEBEB;
+	--bg-makari: #330000;
+	--card-select-red: #ED0000;
+	--card-select-green: #3FBD2B;
+	--card-select-blue: #3582DB;
+	--card-select-yellow: #F0E035;
+}
+#headeri {
+	width: 100%;
+}
+.sidebar {
+	float: left;
+	height: 100%;
+	width: 20vw;
+	background-color: var(--bg-light);	
+}
+.items {
+	display: initial;
+}
+.mainch {
+	display: flex;
+	flex-direction: column;
+}
+.subch li ul li{
+	list-style-type: none;
+}
+ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+.mainchapterchange {
+	font-size: 21px;
+	width: 75%;
+}
+.subchapterchange {
+	margin-top: 10px;
+	padding: 1% 2%;
+	width: 85%;
+	font-size: 21px;
+	margin-left: 20px;
+}
+button {
+	color: var(--font-color);
+	margin-top: 20px;
+	padding: 2%;
+	background-color: var(--bg-dark);
+	border-style: none;
+}
+
+* {
+	font-family: 'Zilla Slab', serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 98vw;
+	height: 100vh;
+	border: 10px solid var(--bg-light);
+	background-color: var(--bg-makari);
+	color: var(--font-color);
+}
