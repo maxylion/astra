@@ -84,6 +84,12 @@ button {
 	height: 85px;
 	background-color: var(--bg-light);
 }
+.icon {
+	display: inline-grid;
+	grid-template-columns: 85px;
+	grid-template-rows: 85px;
+	margin-right: 10px;
+}
 .icon *{
 	margin-right: 10px;
 	margin-bottom: 4%;
