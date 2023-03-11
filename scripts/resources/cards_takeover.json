@@ -127,7 +127,7 @@
 		"title":"The Senator",
 		"types":["special", "swap"]
 	},
-	"sulpicius":{
+	"sulpi":{
 		"src_god":"./scripts/resources/img/god/sulpi.jpg",
 		"src_devil":"./scripts/resources/img/devil/sulpi.jpg",
 		"info_god":{

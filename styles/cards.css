@@ -74,7 +74,7 @@ button {
 }
 .row {
 	flex-direction: row;
-	flex-wrap: wrap;
+
 	display: flex;
 }
 #cons *{
@@ -101,8 +101,8 @@ button {
 }
 #cardimgfull {
 	visibility: hidden;
-	width: 30vw;
-	height: 55vh;
+	width: 25vw;
+	height: 50vh;
 }
 #display {
 	max-width: 45vw;
