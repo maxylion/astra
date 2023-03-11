@@ -18,18 +18,48 @@
 .sidebar {
 	float: left;
 	height: 100%;
-	width: 20vw;
+	width: 20%;
 	background-color: var(--bg-light);	
 }
 .items {
 	display: initial;
+}
+.title {
+	margin-top: 30px;
+	width: 100%;
+	text-align: center;
+	font-size: 36px;
+	color: var(--font-color);
+}
+.main {
+	margin: 10px 25%;
+	overflow-y: scroll;
+	scrollbar-width: thin;
+	width: 65%;
+	height: 75%;
+	padding: 3%;
+	background-color: rgba(30, 30, 30, 0.65);
 }
 .mainch {
 	display: flex;
 	flex-direction: column;
 }
 .subch li ul li{
+	display: inline-block;
 	list-style-type: none;
+}
+.dialogue {
+	width: 100%;
+	margin-top: 20px;
+	display: inline-flex;
+}
+.text {
+	margin-left: 10px;
+}
+.dialogue p {
+	width: fit-content;
+	font-size: 26px;
+	color: var(--font-color);
 }
 ul li {
     display: inline-block;
@@ -46,6 +76,9 @@ ul li {
 	font-size: 21px;
 	margin-left: 20px;
 }
+.smallcontent{
+	width: 95%;
+}
 button {
 	color: var(--font-color);
 	margin-top: 20px;
@@ -61,7 +94,7 @@ button {
 }
 body {
 	width: 98vw;
-	height: 100vh;
+	height: 98vh;
 	border: 10px solid var(--bg-light);
 	background-color: var(--bg-makari);
 	color: var(--font-color);

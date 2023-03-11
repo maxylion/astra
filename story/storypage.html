@@ -9,13 +9,12 @@
     <meta content="Astatos Story Reference" property="og:description" />
     <meta content="https://maxylion.github.io/astra/story/storypage.html" property="og:url" />
     <meta content="https://maxylion.github.io/astra/COVER.png" property="og:image" />
-    <meta content="https://maxylion.github.io/astra/COVER.png" property="og:image" />
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Astra - Story Reference</title>
 </head>
-<body>
+<body onload="load()">
 	<div class="sidebar">
 		<ul class="mainch">
 			<li class="subch">
@@ -25,13 +24,16 @@
 				<li>
 					<ul class="items">
 						<li>
-							<button class="subchapterchange">Recollections</button>
+							<button class="subchapterchange smallcontent" onclick="switchMain(0, 0)">Recollections</button>
 						</li>
 						<li>
-							<button class="subchapterchange">Journey to Irinipolis - Part I</button>
+							<button class="subchapterchange" onclick="switchMain(0, 1)">Journey to Irinipolis - Part I</button>
 						</li>
 						<li>
-							<button class="subchapterchange">Journey to Irinipolis - Part II</button>
+							<button class="subchapterchange" onclick="switchMain(0, 2)"">Journey to Irinipolis - Part II</button>
+						</li>
+						<li>
+							<button class="subchapterchange" onclick="switchMain(0, 3)">Journey to Irinipolis - Part III</button>
 						</li>
 					</ul>
 				</li>
@@ -52,7 +54,18 @@
 				</button>
 			</li>
 		</ul>
-		<script src="../scripts/storyDisplay.js"></script>
 	</div>
+	<h1 class="title" id="title">
+		Test
+	</h1>
+	<div class="main">
+		<ul id="dia">
+			<li class="dialogue">
+				<p class="char"></p>
+				<p class="text"></p>
+			</li>
+		</ul>
+	</div>
+	<script src="../scripts/storyDisplay.js"></script>
 </body>
 </html>
