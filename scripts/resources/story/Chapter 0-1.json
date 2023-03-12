@@ -1,5 +1,5 @@
 {
-    "title": "Chapter 0 - 1:<br>Journey to Irinipolis - Part I\n",
+    "title": "Chapter 0-1: Journey to Irinipolis - Part I\n",
     "lines": [
         {
             "": "(The tunnel we used to escape the academy was narrow and treacherous.)\n"
@@ -161,6 +161,9 @@
             "Vitus": " \"Stop it! You can teach one of us each!\""
         },
         {
+            "": "//Choice//\n"
+        },
+        {
             "": "(Who should teach Vitus?)\n"
         },
         {
@@ -174,6 +177,9 @@
         },
         {
             "Mukaki": " \"Alright, go ahead and give it a shot.\""
+        },
+        {
+            "": "//Choice//\n"
         },
         {
             "Volesus": " \"This... is the Hero!\""
@@ -284,6 +290,9 @@
             "": "(Listen to whom?)\n"
         },
         {
+            "": "//Choice//\n"
+        },
+        {
             "": ">Makari-Hari \u2015 Focus on defence.\n"
         },
         {
@@ -335,10 +344,13 @@
             "Herclaus": " \"...Fine, then. Let us begin.\""
         },
         {
-            "(If the player listens to Mukaki)": " (Vitus convinces the refugees that defence is the wisest way to get past the bandits.)"
+            "": "//Choice//\n"
         },
         {
-            "(If the player listens to Makari-Hari)": " (Vitus convinces the refugees that he knows offence is the best way to get past the bandits.)"
+            "(If the player listens to Mukaki)": " (Vitus convinces the refugees that offence is the wisest way to get past the bandits.)"
+        },
+        {
+            "(If the player listens to Makari-Hari)": " (Vitus convinces the refugees that he knows defebce is the best way to get past the bandits.)"
         }
     ]
 }

@@ -1,0 +1,377 @@
+{
+    "title": "Chapter 0-4 : Journey to Irinipolis - Part IV\n",
+    "lines": [
+        {
+            "": "For two more days, we travelled with the refugees along the road, seeking safety in an unfamiliar city.\n"
+        },
+        {
+            "": "But even after the run-in with bandits, we wouldn't be able to rest easy.\n"
+        },
+        {
+            "Volesus": " \"Hey, wake up! We're in trouble!\""
+        },
+        {
+            "Vitus": " \"What's going on?\""
+        },
+        {
+            "Volesus": " \"All the supplies are stolen! Including our weapons and food supply!\""
+        },
+        {
+            "Vitus": " \"Stolen? Who did it?!\""
+        },
+        {
+            "(If Vitus convinces Cerkles to heal the bandits)": ""
+        },
+        {
+            "Volesus": " \"It was those bandits! They made a run for it with our resources!\""
+        },
+        {
+            "Cerkles": " \"Maybe I was too gentle on them... I'm sorry...\""
+        },
+        {
+            "Mukaki": " \"It's not your fault.\""
+        },
+        {
+            "Mukaki": " \"We all know it's all because of that self-righteous idiot!\""
+        },
+        {
+            "Makari-Hari": " \"Some bad luck doesn't mean you should abandon justice.\""
+        },
+        {
+            "Mukaki": " \"We aren't lacking of luck! You're lacking half a brain!\""
+        },
+        {
+            "Makari-Hari": " \"You!\""
+        },
+        {
+            "(If Vitus convinces Cerkles to not heal the bandits)": ""
+        },
+        {
+            "Volesus": " \"There are some people missing. The other refugees said they were scared of our power...\""
+        },
+        {
+            "Mukaki": " \"How stupid! What is there to be scared of when you have great powers protecting you?\""
+        },
+        {
+            "Makari-Hari": " \"Clearly the obvious possibility that we may use that power against them someday. It's ours, not theirs, after all.\""
+        },
+        {
+            "Makari-Hari": " \"This is how the mortals think, which is why I'm not at all surprised.\""
+        },
+        {
+            "Mukaki": " \"This is hilarious! I don't think I can ever understand what's in their heads.\""
+        },
+        {
+            "Makari-Hari": " \"Which is precisely what put it into this situation.\""
+        },
+        {
+            "Mukaki": " \"Are you kidding me?\""
+        },
+        {
+            "Mukaki": " \"I ought to wipe that smug scowl off your ugly face...\""
+        },
+        {
+            "(Regardless of Vitus' option, the text will resume here for both choices)": ""
+        },
+        {
+            "Vitus": " \"All right! This doesn't help us. What are our options now?\""
+        },
+        {
+            "Vitus": " \"We won't make it to the city without any food.\""
+        },
+        {
+            "Makari-Hari": " \"I would... rather not entertain this option, but\u2014\""
+        },
+        {
+            "Mukaki": " \"The last artefact! Hah\u2014 sounds like the perfect time!\""
+        },
+        {
+            "Makari-Hari": " \"Even though that may be the case...\""
+        },
+        {
+            "Volesus": " \"One artefact remaining?\""
+        },
+        {
+            "Volesus": " \"You mean this... chalice?\""
+        },
+        {
+            "Volesus": " \"...But who could it be?"
+        },
+        {
+            "Volesus": " \"Wait! Would it actually be the holy chalice from that legend?\""
+        },
+        {
+            "Volesus": " \"The great adventurer, Zermes, the saviour?\""
+        },
+        {
+            "Mukaki": " \"The hell are they calling him now?! Say that to his face and he'll die laughing!\""
+        },
+        {
+            "Makari-Hari": " \"That's the reason why I... Whatever, if you must summon him, do it.\""
+        },
+        {
+            "Mukaki": " \"You presume I wish to deal with him? But fine, I am not afraid of a little chaos.\""
+        },
+        {
+            "Volesus": " \"So what's the matter with him?\""
+        },
+        {
+            "Vitus": " \"I'll summon him this time.\""
+        },
+        {
+            "": "(Vitus draws a magic circle in the dirt and places the holy chalice within it.)\n"
+        },
+        {
+            "": "(Focusing, he repeats the incantation\u2014 a laughing figure materialises in a bright flash.)\n"
+        },
+        {
+            "Zermes": " \"Hahahaha! Zermes, the greatest rouge in history hears your call!\""
+        },
+        {
+            "Zermes": " \"Try not to be too overwhelmed, summoners, though nobody will blame you when you are.\""
+        },
+        {
+            "Zermes": " \"Wait. What the hell? I didn't expect such a grand reception...\""
+        },
+        {
+            "Zermes": " \"Both demiurges are here!? What's going on?\""
+        },
+        {
+            "Volesus": " \"Zermes... the great rogue?\""
+        },
+        {
+            "Vitus": " \"Let me explain what's going on here first.\""
+        },
+        {
+            "Zermes": " \"Supplies got stolen? Hmm... That's indeed something I can help with. Alright, hand me my chalice.\""
+        },
+        {
+            "Volesus": " \"Here you go...\""
+        },
+        {
+            "Zermes": " \"This is all I need. Come on, stick you paw in it!\""
+        },
+        {
+            "Volesus": " \"Eh? Pardon me?\""
+        },
+        {
+            "Vitus": " \"I can try.\""
+        },
+        {
+            "": "The holy chalice begins to fill with silvery-blue glaze, like beautiful sparkling water.\n"
+        },
+        {
+            "": "And at the bottom, a loaf of bread appears.\n"
+        },
+        {
+            "Vitus": " \"Huh? Bread?\""
+        },
+        {
+            "Vitus": " \"Oh, it smells great.\""
+        },
+        {
+            "Vitus": " \"And it's not even soggy!\""
+        },
+        {
+            "Zermes": " \"Hmm. Not bad.\""
+        },
+        {
+            "Zermes": " \"Hey you! Your turn!\""
+        },
+        {
+            "": "Volesus excitedly puts his paws into the holy chalice...\n"
+        },
+        {
+            "": "...but wrinkles his face when he only pulls out a bunch of damp hay.\n"
+        },
+        {
+            "Volesus": " \"...What?\""
+        },
+        {
+            "Zermes": " \"Heheh\u2014 Bad luck! At least your pack beasts won't starve.\""
+        },
+        {
+            "Volesus": " \"But how... what about that empty chalice could conjure anything from within it?\""
+        },
+        {
+            "Mukaki": " \"Because Zermes is the only one who can awaken the power of that chalice.\""
+        },
+        {
+            "Makari-Hari": " \"Why the chalice acknowledges Zermes of all people is beyond me.\""
+        },
+        {
+            "Zermes": " \"It's only natural! I am nothing but chartiable.\""
+        },
+        {
+            "Makari-Hari": " \"Whatever you say.\""
+        },
+        {
+            "Vitus": " \"So if we gather the others...\""
+        },
+        {
+            "Zermes": " \"Clever boy! He gets it.\""
+        },
+        {
+            "Zermes": " \"Go gather me a crowd and let the raffle begin!\""
+        },
+        {
+            "": "(The refugees line up in front of the caravan, each dipping their paws into the chalice one by one.)\n"
+        },
+        {
+            "": "(Soon the group had many things\u2014 food, weapons, tools, decorations, and even a few monera.)\n"
+        },
+        {
+            "Volesus": " \"A sword, from that tiny chalice?!\""
+        },
+        {
+            "Vitus": " \"We may be okay with supplies for now, but...\""
+        },
+        {
+            "Vitus": " \"What about the bandits that ran away?\""
+        },
+        {
+            "Makari-Hari": " \"We're going to catch them, of course! They deserve to be tried and punished accordingly!\""
+        },
+        {
+            "Mukaki": " \"Come on, how do you still have that kind of energy after this? Just let them go.\""
+        },
+        {
+            "Makari-Hari": " \"It's a matter of principle!\""
+        },
+        {
+            "Mukaki": " \"It's just you haggling over every little coin.\""
+        },
+        {
+            "Makari-Hari": " \"What they did is almost starve our Crown Mages. So you would compare their lives to a single coin?\""
+        },
+        {
+            "Mukaki": " \"Tell me\u2014 you capture them again, and then what? Nannying some bandits is a wasted effort.\""
+        },
+        {
+            "Makari-Hari": " \"We must let people know we're to be taken seriously! Otherwise what if someone steals our belongings again?\""
+        },
+        {
+            "Vitus": " \"All right\u2014 All right\u2014 You two won't come to a compromise without our intervention, will you?\""
+        },
+        {
+            "Volesus": " \"Then Vitus, let us pick sides and work this out together.\""
+        },
+        {
+            "Vitus": " \"Right, this time I want to follow...\""
+        },
+        {
+            "": "//Choice//\n"
+        },
+        {
+            "Vitus": " \"Then what about the refugees who ran away?\""
+        },
+        {
+            "Makari-Hari": " \"We are going to catch them and bring them back, of course!\""
+        },
+        {
+            "Mukaki": " \"What's the difference? Just let them go. Maybe they will get killed by other bandits.\""
+        },
+        {
+            "Makari-Hari": " \"Which is why you find them and put them in custody! What if they come back and take advantage of us again?\""
+        },
+        {
+            "Mukaki": " \"We still have that holy chalice.\""
+        },
+        {
+            "Makari-Hari": " \"Power like that is what they fear! That's why they want to flee! You need to teach them to behave!\""
+        },
+        {
+            "Mukaki": " \"It's exhausting to teach others how to think... why can't we just live our lives?\""
+        },
+        {
+            "Vitus": " \"I guess we can't avoid another fight between these two, then.\""
+        },
+        {
+            "Volesus": " \"Then Vitus, let us pick sides and work this out together.\""
+        },
+        {
+            "Vitus": " \"Right, this time I want to follow...\""
+        },
+        {
+            "": "//Choice//\n"
+        },
+        {
+            "": "Listen to whom?\n"
+        },
+        {
+            ">Makari-Hari": " Capture them."
+        },
+        {
+            "": ">Mukaki - Leave them behind.\n"
+        },
+        {
+            "(If Volesus listens to Mukaki)": ""
+        },
+        {
+            "Volesus": " \"Okay. Then I will represent Mukaki's interests to our travelling companions.\""
+        },
+        {
+            "Vitus": " \"Then let us begin.\""
+        },
+        {
+            "": "(Vitus convinces the refugees that they should capture those who escaped.)\n"
+        },
+        {
+            "Herclaus": " \"Then it's settled. I will gather some volunteers and hunt them down.\""
+        },
+        {
+            "Cerkles": " \"I'm sure I can persuade some of them to help our cause.\""
+        },
+        {
+            "Krokos": " \"I have no reason to stay behind.\""
+        },
+        {
+            "Zermes": " \"Haha\u2014 I bet the lot of them will regret messing with a couple of Crown Mages!\""
+        },
+        {
+            "(If Volesus listens to Makari-Hari)": ""
+        },
+        {
+            "Volesus": " \"Okay. Then I will represent Makari-Hari's interests to our travelling companions.\""
+        },
+        {
+            "Vitus": " \"Then let us begin.\""
+        },
+        {
+            "": "(Vitus convinces the refugees that they should continue forth, ignoring the escapees.)\n"
+        },
+        {
+            "Vitus": " \"So let us forget them and move on.\""
+        },
+        {
+            "Herclaus": " \"So be it then. We won't chase after those thieves.\""
+        },
+        {
+            "Krokos": " \"It's the boring option, but probably for the best.\""
+        },
+        {
+            "Cerkles": " \"I am unsure about leaving them behind... Those who are afraid will do what they need to survive...\""
+        },
+        {
+            "Zermes": " \"What you don't need is far more interesting to me.\""
+        },
+        {
+            "Cerkles": " \"...and sometimes, people are just greedy.\""
+        },
+        {
+            "Zermes": " \"\"\"Greedy\"\" and \"\"necessary\"\" are awfully subjective words.\""
+        },
+        {
+            "Zermes": " \"If somebody owns something, I tend to believe there's a decent reason for that.\""
+        },
+        {
+            "Zermes": " \"Pretty or ugly.\""
+        },
+        {
+            "Cerkles": " \"It's usually ugly.\""
+        },
+        {
+            "": "END"
+        }
+    ]
+}

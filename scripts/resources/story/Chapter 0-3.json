@@ -1,5 +1,5 @@
 {
-    "title": "Chapter 0 - 3:<br>Journey to Irinipolis - Part III\n",
+    "title": "Chapter 0-3 : Journey to Irinipolis - Part III\n",
     "lines": [
         {
             "(If Krokos uses his blessing)": ""
@@ -296,10 +296,16 @@
             "": "(Listen to whom?)\n"
         },
         {
+            "": "//Choice//\n"
+        },
+        {
             "": ">Makari-Hari \u2014 Heal and capture them.\n"
         },
         {
             "": ">Mukaki \u2014 Leave them to their demise.\n"
+        },
+        {
+            "": "//Choice//\n"
         },
         {
             "(If Vitus prefers Makari-Hari)": ""
@@ -353,7 +359,7 @@
             "Cerkles": " \"Understood.\""
         },
         {
-            "": "END"
+            "": "END\n"
         }
     ]
 }

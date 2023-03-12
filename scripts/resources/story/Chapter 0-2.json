@@ -1,5 +1,5 @@
 {
-    "title": "Chapter 0 - 2:<br>Journey to Irinipolis - Part II\n",
+    "title": "Chapter 0-2 : Journey to Irinipolis \u2015 Part II\n",
     "lines": [
         {
             "": "With Herclaus leading the way, we defeated the thieves.\n"
@@ -206,10 +206,16 @@
             "": "(How to handle the bandits?)\n"
         },
         {
+            "": "//Choice//\n"
+        },
+        {
             "": ">Makari-Hari - Receive Krokos' blessing.\n"
         },
         {
             "": ">Mukaki - Wipe them out with a death curse.\n"
+        },
+        {
+            "": "//Choice//\n"
         },
         {
             "(If Vitus chooses to side with Makari-Hari)": ""
@@ -272,7 +278,7 @@
             "Krokos": " \"And please, for your safety, do not approach me during the ritual.\""
         },
         {
-            "": "END"
+            "": "END\n"
         }
     ]
 }
