@@ -15,6 +15,19 @@
 #headeri {
 	width: 100%;
 }
+
+@media only screen and (max-width: 768px){
+	.subchapterchange {
+		margin-top: 10px;
+		padding: 1% 2%;
+		width: 85%;
+		font-size: 21px;
+		margin-left: 20px;
+	}
+	.smallcontent{
+		width: 95%;
+	}
+}
 .sidebar {
 	float: left;
 	height: 100%;

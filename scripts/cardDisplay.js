@@ -29,18 +29,11 @@ function load(){
 	document.getElementById("side").style.backgroundColor = "#330000";
 	document.getElementById("display").style.display = "none";
 }
-function filter(arr){
-	let str = "";
-	let [a, b, c, d] = arr;
-	let nArr = [a, b, c, d].filter((m) =>{
-		value != undefined;
-	});
-	nArr.forEach(cat => {
-		str.concat(`${categoryNames[cat]} `);
-	});
-	return str;
-}
 function changeCard(cardName) {
+	if (currentCard !== "") {
+		let currentheroimg = document.getElementById(currentCard);
+		currentheroimg.style.border = "";
+	}
 	currentCard = cardName;
 	type = types.hero;
 	document.getElementById("display").style.display = "";
@@ -49,9 +42,9 @@ function changeCard(cardName) {
 	fetch(`./scripts/resources/cards_${mode}.json`)
 	.then((res) => res.json())
 	.then((data) => {
-		let img = new Image();
-		let currentData = data[currentCard];
-		let info = currentData[`info_${side}`];
+		const img = new Image();
+		const currentData = data[currentCard];
+		const info = currentData[`info_${side}`];
 		img.src = currentData[`src_${side}`];
 		document.getElementById("cardimgfull").src = img.src;
 		document.getElementById("abil").textContent = `Active Ability: ${info["ability"]}`
@@ -60,8 +53,18 @@ function changeCard(cardName) {
 		document.getElementById("title").textContent = currentData["name"];
 		document.getElementById("title2").textContent = currentData["title"];
 		document.getElementById("title2").style.width = document.getElementById("title").style.width;
-		document.getElementById("cat").textContent = `Categories: ${filter(currentData["types"])}`;
 	});
+
+	let currentheroimg = document.getElementById(currentCard);
+	console.log(side);
+	switch(side) {
+		case sides.makari:
+			currentheroimg.style.border = "3px solid #E9C668";
+			break;
+		case sides.mukaki:
+			currentheroimg.style.border = "3px solid #301D36";
+			break;
+	}
 }
 function changeColor(newColor){
 	color = newColor;
@@ -77,9 +80,9 @@ function changeSpell(spellName){
 	fetch(`./scripts/resources/spells_${mode}.json`)
 	.then((res) => res.json())
 	.then((data) => {
-		let img = new Image();
-		let name = data[currentCard]["name"];
-		let desc = data[currentCard][`desc_${side}`];
+		const img = new Image();
+		const name = data[currentCard]["name"];
+		const desc = data[currentCard][`desc_${side}`];
 		img.src = data[currentCard]["srcs"][color];
 		document.getElementById("cardimgfull").src = img.src;
 		document.getElementById("abil").textContent = `Ability: ${desc}`;
@@ -117,8 +120,8 @@ function changeMode(){
 	}
 }
 function changeSide(){
-	let button = document.getElementById("side");
-	let display = document.getElementById("display");
+	const button = document.getElementById("side");
+	const display = document.getElementById("display");
 	switch (side) {
 		case sides.makari:
 			side = sides.mukaki;
