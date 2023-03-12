@@ -1,64 +1,68 @@
 let main = 0;
 let subchapter = 0;
-let interlude = null;
+let ininterlude = false;
 let interludechar = null;
 let interludeindx = null;
+let currentdata = null;
 function load() {
-	updateShit();
+	fetch(`../scripts/resources/story/Chapter ${main}-${subchapter}.json`)
+	.then((res) => res.json())
+	.then((data) => {
+		updateShit(data);
+	});
 }
-function updateShit() {
+function updateShit(data) {
 	const root = document.getElementById("dia");
 	while(root.firstChild) {
 		root.removeChild(root.firstChild);
 	}
-	if (interlude !== null) {
-	}
-	else {
-		fetch(`../scripts/resources/story/Chapter ${main}-${subchapter}.json`)
-		.then((res) => res.json())
-		.then((data) => {
-			console.log(data)
-			document.getElementById("title").innerHTML = data["title"];
-			
-			data["lines"].forEach(element => {
-				const k = Object.keys(element)[0];
-				const charli = document.createElement("li");
-				charli.classList.add("dialogue");
-				const charp = document.createElement("p");
-				switch (k) {
-					case "":
-						charp.textContent = k;
-						break;
-				
-					default:
-						charp.textContent = k + ":";
-						break;
-				}
-				charp.classList.add("char");
-				charli.appendChild(charp);
-				const v = element[k];
-				const dialoguep = document.createElement("p");
-				dialoguep.textContent = v;
-				dialoguep.classList.add("text");
-				charli.appendChild(dialoguep);
-				root.appendChild(charli);
-			});
-		});
-	}
+	document.getElementById("title").innerHTML = data["title"];
+	data["lines"].forEach(element => {
+		const k = Object.keys(element)[0];
+		const charli = document.createElement("li");
+		charli.classList.add("dialogue");
+		const charp = document.createElement("p");
+		switch (k) {
+		case "":
+			charp.textContent = k;
+			break;
+		default:
+			charp.textContent = k + ":";
+			break;
+		}
+		charp.classList.add("char");
+		charli.appendChild(charp);
+		const v = element[k];
+		const dialoguep = document.createElement("p");
+		dialoguep.textContent = v;
+		dialoguep.classList.add("text");
+		charli.appendChild(dialoguep);
+		root.appendChild(charli);
+	});
 }
 function switchMain(mainCh, subCh){
 	main = mainCh;
 	subchapter = subCh;
-	interlude = null;
+	ininterlude = false;
 	interludechar = null;
 	interludeindx = null;
-	updateShit();
+	fetch(`../scripts/resources/story/Chapter ${main}-${subchapter}.json`)
+	.then((res) => res.json())
+	.then((data) => {
+		updateShit(data);
+	});
 }
-function switchInterlude(id, char, indx){
-	interlude = id;
+function switchInterlude(char, indx){
+	ininterlude = true;
 	interludechar = char;
-	indx = indx;
+	interludeindx = indx;
+	const path = `../scripts/resources/story/interlude/Intro-${interludechar}-${interludeindx}.json`;
+	console.log(path);
+	fetch(path)
+	.then((res) => res.json())
+	.then((data) => {
+		updateShit(data);
+	});
 	main = null;
 	subchapter = null;
-	updateShit();
 }
