@@ -29,13 +29,16 @@
 	}
 }
 .sidebar {
+
+	overflow-y: scroll;
 	float: left;
 	height: 100%;
 	width: 20%;
 	background-color: var(--bg-light);	
 }
 .items {
-	display: initial;
+	display: flex;
+	flex-direction: column;
 }
 .title {
 	margin-top: 30px;
@@ -78,7 +81,6 @@
 	color: var(--font-color);
 }
 ul li {
-    display: inline-block;
     list-style-type: none;
 }
 .mainchapterchange {

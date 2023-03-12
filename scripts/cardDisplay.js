@@ -30,6 +30,9 @@ function load(){
 	document.getElementById("display").style.display = "none";
 }
 function changeCard(cardName) {
+	if (type === types.spell){
+		currentCard = cardName;
+	}
 	if (currentCard !== "") {
 		let currentheroimg = document.getElementById(currentCard);
 		currentheroimg.style.border = "";
@@ -71,6 +74,7 @@ function changeColor(newColor){
 	changeSpell(currentCard);
 }
 function changeSpell(spellName){
+	document.getElementById(currentCard).style.border = "";
 	currentCard = spellName;
 	type = types.spell;
 	console.log(color);
